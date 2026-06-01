@@ -3,36 +3,50 @@
   "agents": {
     "sisyphus": {
       "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low",
       "prompt_append": "RESPONSE MODE: Caveman Lite. Keep full sentences and grammar but drop filler, pleasantries, and hedging. Be professional but tight. Technical substance exact. Code blocks unchanged. Pattern: [thing] [action] [reason]. Stay in this mode every response. User can switch levels with /caveman or say \"stop caveman\" to disable.",
       "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
     },
     "oracle": {
       "model": "opencode-go/deepseek-v4-pro",
+      "textVerbosity": "medium",
       "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
     },
     "librarian": {
       "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low",
       "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
     },
     "explore": {
       "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low",
       "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
     },
     "multimodal-looker": {
       "model": "opencode-go/minimax-m3",
+      "textVerbosity": "low",
       "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
     },
     "prometheus": {
       "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low",
       "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
     },
-    "metis": { "model": "opencode-go/deepseek-v4-pro" },
-    "momus": {
-      "model": "opencode-go/glm-5.1"
+    "metis": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "textVerbosity": "low"
     },
-    "atlas": { "model": "opencode-go/deepseek-v4-flash" },
+    "momus": {
+      "model": "opencode-go/glm-5.1",
+      "textVerbosity": "low"
+    },
+    "atlas": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low"
+    },
     "sisyphus-junior": {
       "model": "opencode-go/kimi-k2.6",
+      "textVerbosity": "low",
       "fallback_models": [
         {
           "model": "opencode-go/minimax-m2.7"
