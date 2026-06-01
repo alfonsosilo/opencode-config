@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "active_work_id": "opencode-config-optimization-f0037b3e",
+  "works": {
+    "opencode-config-optimization-f0037b3e": {
+      "work_id": "opencode-config-optimization-f0037b3e",
+      "active_plan": "/Users/alfonsoserrano/.config/opencode/.omo/plans/opencode-config-optimization.md",
+      "plan_name": "opencode-config-optimization",
+      "status": "active",
+      "started_at": "2026-06-01T14:01:16.576Z",
+      "updated_at": "2026-06-01T14:01:16.576Z",
+      "session_ids": [
+        "opencode:ses_17c9077a8ffeApV119DnsEXwZp"
+      ],
+      "session_origins": {
+        "opencode:ses_17c9077a8ffeApV119DnsEXwZp": "direct"
+      },
+      "agent": "atlas",
+      "task_sessions": {}
+    }
+  },
+  "active_plan": "/Users/alfonsoserrano/.config/opencode/.omo/plans/opencode-config-optimization.md",
+  "started_at": "2026-06-01T14:01:16.576Z",
+  "status": "active",
+  "updated_at": "2026-06-01T14:01:16.576Z",
+  "session_ids": [
+    "opencode:ses_17c9077a8ffeApV119DnsEXwZp"
+  ],
+  "session_origins": {
+    "opencode:ses_17c9077a8ffeApV119DnsEXwZp": "direct"
+  },
+  "plan_name": "opencode-config-optimization",
+  "task_sessions": {},
+  "agent": "atlas"
+}

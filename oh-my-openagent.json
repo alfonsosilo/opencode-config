@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+    },
+    "oracle": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+    },
+    "librarian": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
+    },
+    "explore": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
+    },
+    "multimodal-looker": {
+      "model": "opencode-go/minimax-m3",
+      "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
+    },
+    "prometheus": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+    },
+    "metis": { "model": "opencode-go/deepseek-v4-pro" },
+    "momus": {
+      "model": "opencode-go/glm-5.1"
+    },
+    "atlas": { "model": "opencode-go/deepseek-v4-flash" },
+    "sisyphus-junior": {
+      "model": "opencode-go/kimi-k2.6",
+      "fallback_models": [
+        {
+          "model": "opencode-go/minimax-m2.7"
+        }
+      ]
+    },
+    "comment_checker": {
+      "custom_prompt": "Revisa los comentarios de forma breve, solo los críticos. Enfócate en la calidad y claridad del código."
+    }
+  },
+  "categories": {
+    "quick": { "model": "opencode-go/deepseek-v4-flash" },
+    "unspecified-low": { "model": "opencode-go/deepseek-v4-flash" },
+    "unspecified-high": { "model": "opencode-go/deepseek-v4-pro" },
+    "visual-engineering": { "model": "opencode-go/kimi-k2.6" },
+    "ultrabrain": { "model": "opencode-go/deepseek-v4-pro" },
+    "deep": { "model": "opencode-go/deepseek-v4-pro" },
+    "artistry": { "model": "opencode-go/kimi-k2.6" },
+    "writing": { "model": "opencode-go/kimi-k2.6" }
+  }
+}
