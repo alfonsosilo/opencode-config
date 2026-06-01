@@ -141,7 +141,7 @@ Wave FINAL (Despues de todo — revision):
 
 ## TODOs
 
-- [ ] 1. Backup completo + Git init + Baseline measurement
+- [x] 1. Backup completo + Git init + Baseline measurement
 
   **What to do**:
   - Hacer backup completo de `~/.config/opencode/`:
@@ -230,7 +230,7 @@ Wave FINAL (Despues de todo — revision):
 
 ---
 
-- [ ] 2. Instalar plugin @al-bashkir/opencode-caveman
+- [x] 2. Instalar plugin @al-bashkir/opencode-caveman
 
   **What to do**:
   - Verificar que el paquete npm existe:
@@ -336,7 +336,7 @@ Wave FINAL (Despues de todo — revision):
 
 ---
 
-- [ ] 3. Configurar textVerbosity en agentes
+- [x] 3. Configurar textVerbosity en agentes
 
   **What to do**:
   - Anadir `textVerbosity` a los agentes en `oh-my-openagent.json`:
@@ -430,7 +430,7 @@ Wave FINAL (Despues de todo — revision):
 
 ---
 
-- [ ] 4. Activar aggressive_truncation + task_system
+- [x] 4. Activar aggressive_truncation + task_system
 
   **What to do**:
   - Anadir seccion `experimental` en `oh-my-openagent.json` (si no existe):
@@ -506,7 +506,7 @@ Wave FINAL (Despues de todo — revision):
 
 ---
 
-- [ ] 5. Limpiar config duplicada (~/.opencode/opencode.json)
+- [x] 5. Limpiar config duplicada (~/.opencode/opencode.json)
 
   **What to do**:
   - Respaldar el archivo sospechoso:
