@@ -1,4 +1,4 @@
 {
-  "plugin": ["oh-my-openagent"],
+  "plugin": ["oh-my-openagent", "@al-bashkir/opencode-caveman"],
   "$schema": "https://opencode.ai/config.json"
 }
