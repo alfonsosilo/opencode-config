@@ -66,5 +66,9 @@
     "deep": { "model": "opencode-go/deepseek-v4-pro" },
     "artistry": { "model": "opencode-go/kimi-k2.6" },
     "writing": { "model": "opencode-go/kimi-k2.6" }
+  },
+  "experimental": {
+    "aggressive_truncation": true,
+    "task_system": true
   }
 }
