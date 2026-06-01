@@ -10,16 +10,19 @@
     "oracle": {
       "model": "opencode-go/deepseek-v4-pro",
       "textVerbosity": "medium",
+      "prompt_append": "Structure your analysis with clear sections. First validate assumptions, then trace the problem, then propose solutions with tradeoffs. Be thorough but precise — every sentence should add value.",
       "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
     },
     "librarian": {
       "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
+      "prompt_append": "Prioritize official documentation and well-maintained libraries. Return actionable findings with source URLs. If something is unclear, say so rather than guessing.",
       "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
     },
     "explore": {
       "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
+      "prompt_append": "Be thorough — check multiple angles and patterns. Report file paths with context. Distinguish between exact matches and similar patterns. If uncertain, flag it.",
       "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
     },
     "multimodal-looker": {
@@ -30,6 +33,7 @@
     "prometheus": {
       "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
+      "prompt_append": "Structure plans as: Context, Objectives, Execution Strategy, Open Questions, and Success Criteria. Identify dependencies and parallelization opportunities. Flag risks early.",
       "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
     },
     "metis": {
@@ -42,7 +46,9 @@
     },
     "atlas": {
       "model": "opencode-go/deepseek-v4-flash",
-      "textVerbosity": "low"
+      "textVerbosity": "low",
+      "prompt_append": "Read the full plan before delegating. Break each task into granular substeps. Delegate to specialists via task() with clear 6-section prompts. Verify each step before proceeding to the next.",
+      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
     },
     "sisyphus-junior": {
       "model": "opencode-go/kimi-k2.6",
