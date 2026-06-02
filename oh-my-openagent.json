@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "opencode-go/deepseek-v4-flash",
+      "model": "opencode-go/deepseek-v4-pro",
       "textVerbosity": "low",
       "prompt_append": "RESPONSE MODE: Caveman Lite. Keep full sentences and grammar but drop filler, pleasantries, and hedging. Be professional but tight. Technical substance exact. Code blocks unchanged. Pattern: [thing] [action] [reason]. Stay in this mode every response. User can switch levels with /caveman or say \"stop caveman\" to disable.",
       "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
@@ -61,6 +61,33 @@
     },
     "comment_checker": {
       "custom_prompt": "Revisa los comentarios de forma breve, solo los críticos. Enfócate en la calidad y claridad del código."
+    },
+    "security-reviewer": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "textVerbosity": "low",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      },
+      "prompt_append": "Eres un revisor de seguridad. Busca: inyecciones, auth bypass, datos sensibles expuestos, dependencias vulnerables. Por cada hallazgo: archivo:línea, severidad, remedio. Si no hay hallazgos, di 'No se encontraron vulnerabilidades'. No informes falsos positivos."
+    },
+    "test-generator": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low",
+      "permission": {
+        "edit": "allow",
+        "bash": "deny"
+      },
+      "prompt_append": "Eres un generador de tests. Detecta el framework de testing del proyecto y sigue sus convenciones. Por cada función/módulo: happy path, edge cases, error cases. Usa los mismos helpers y patrones de mock que ya existen en el proyecto."
+    },
+    "docs-writer": {
+      "model": "opencode-go/kimi-k2.6",
+      "textVerbosity": "low",
+      "permission": {
+        "edit": "allow",
+        "bash": "deny"
+      },
+      "prompt_append": "Eres un escritor técnico. Documenta APIs, componentes y módulos. Sé conciso: ejemplos > párrafos. Usa el formato estándar del ecosistema (JSDoc, docstrings, Godoc). No documentes lo obvio. No dupliques documentación existente."
     }
   },
   "categories": {
