@@ -1,0 +1,10 @@
+{
+  "id": "T-8e3aef0e-1fe2-41ac-b216-a1a252cadf2a",
+  "subject": "Update AGENTS.md for uv migration",
+  "description": "Fix pip references in AGENTS.md: setup section, raw scripts, dependency notes",
+  "status": "completed",
+  "activeForm": "Updating AGENTS.md for uv",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_130c44fcbffe7wCM4ne4aXv3MR"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-69006755-95f8-4485-8111-6f98fc207591",
+  "subject": "Remove old files and verify",
+  "description": "Delete convert.py, join_html.py, split-pdf/ and verify everything works",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_136177f6effeQZrjnJ60XJMFRv"
+}

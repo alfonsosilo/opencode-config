@@ -1,0 +1,10 @@
+{
+  "id": "T-71f41b30-970b-496b-a454-c9dc0cfa23b3",
+  "subject": "Fix: href debe ser URL amigable, no UUID",
+  "description": "Añadir campo url al índice de búsqueda, modificar frontend para usar URL en href y UUID en data-term-id",
+  "status": "completed",
+  "activeForm": "Fixing href to use friendly URLs",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_106e0c5e2ffeMjyZTlNecd59dq"
+}

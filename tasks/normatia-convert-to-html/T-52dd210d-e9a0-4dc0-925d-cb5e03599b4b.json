@@ -1,0 +1,10 @@
+{
+  "id": "T-52dd210d-e9a0-4dc0-925d-cb5e03599b4b",
+  "subject": "Create scripts/convert_to_json.py",
+  "description": "Core Python script replicating convert-to-json.js functionality",
+  "status": "completed",
+  "activeForm": "Writing convert_to_json.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_134818c6bffetC6WHCIsEXWGBw"
+}

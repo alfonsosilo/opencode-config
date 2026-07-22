@@ -1,0 +1,10 @@
+{
+  "id": "T-1858453a-055b-4df9-97dd-c0a63f5525fc",
+  "subject": "Add --pages-dir CLI arg to scripts/convert.py",
+  "description": "Add --pages-dir argument, pass it to process_pdf_to_html() calls.",
+  "status": "in_progress",
+  "activeForm": "Adding --pages-dir to convert.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_13087fad1ffeiuR3jsIktk9NMF"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-5b69d866-c580-4e8e-a5a6-af9e888b7fc8",
+  "subject": "Implement Fase 2 — Batch PDF Processing",
+  "description": "Create batch.py with BatchEntry, BatchReport, batch_convert; add batch subcommand to cli.py; update Makefile batch target",
+  "status": "completed",
+  "activeForm": "Implementing batch PDF processing",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b81d111bffesAN4dgdAFnvpZH"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-26090b21-b00c-41da-8aca-3fe30d2a5c12",
+  "subject": "Verify build and import test",
+  "description": "Run import tests to ensure verify.py loads correctly with all new features. Run lsp_diagnostics on both changed files.",
+  "status": "completed",
+  "activeForm": "Verifying imports and diagnostics",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111682234ffedHPjWWn3sZkHZX"
+}

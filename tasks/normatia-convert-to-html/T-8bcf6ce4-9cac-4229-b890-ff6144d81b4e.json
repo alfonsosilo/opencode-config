@@ -1,0 +1,9 @@
+{
+  "id": "T-8bcf6ce4-9cac-4229-b890-ff6144d81b4e",
+  "subject": "Setup converter-v2/ package + dependencias",
+  "description": "Crear carpeta converter-v2/ con __init__.py y config.py. Verificar/installar pymupdf y pdfplumber en pyproject.toml.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

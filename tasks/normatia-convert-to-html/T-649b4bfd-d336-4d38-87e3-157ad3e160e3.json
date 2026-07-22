@@ -1,0 +1,9 @@
+{
+  "id": "T-649b4bfd-d336-4d38-87e3-157ad3e160e3",
+  "subject": "Batch 3: Fase 4b — Crear scripts/add_term_links_no_cte.py",
+  "description": "Script que lee 02-with-articles.json, indexa definiciones por title_plain, y enlaza términos en bloques article usando regex maestra + BeautifulSoup.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

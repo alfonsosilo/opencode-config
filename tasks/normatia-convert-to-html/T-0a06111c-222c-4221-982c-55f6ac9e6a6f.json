@@ -1,0 +1,10 @@
+{
+  "id": "T-0a06111c-222c-4221-982c-55f6ac9e6a6f",
+  "subject": "Update Makefile and docs",
+  "description": "Add all-fixed, fix, verify, convert-verbose targets. Update AGENTS.md and README.md",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-7908575a-a3dc-4827-aaa2-fba65af8f35a",
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

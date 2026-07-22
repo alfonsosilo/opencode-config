@@ -1,0 +1,10 @@
+{
+  "id": "T-a4280f47-275f-4d41-a2ce-9671b992b837",
+  "subject": "Verify edits with diagnostics",
+  "description": "Run lsp_diagnostics on both edited files; confirm no regressions",
+  "status": "completed",
+  "activeForm": "Verifying edits",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dd7fa4c1ffenLeLE1Kn7W2OiA"
+}

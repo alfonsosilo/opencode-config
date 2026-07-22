@@ -1,0 +1,10 @@
+{
+  "id": "T-0a56f1b1-c890-450d-98ee-dcb3202a34f8",
+  "subject": "Verify all files created and index.html links correct",
+  "description": "Sanity check: files exist, references match, no leftover innerHTML in conversor.js for user content",
+  "status": "completed",
+  "activeForm": "Verifying outputs",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4efd85ffeDoWUmKsxKmPJLw"
+}

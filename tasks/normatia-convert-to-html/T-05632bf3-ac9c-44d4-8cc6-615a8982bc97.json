@@ -1,0 +1,10 @@
+{
+  "id": "T-05632bf3-ac9c-44d4-8cc6-615a8982bc97",
+  "subject": "Update README.md for uv migration",
+  "description": "Fix all pip references in README.md: setup commands, venv activation, python version, requirements.txt references, troubleshooting",
+  "status": "completed",
+  "activeForm": "Updating README.md for uv",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_130c44fcbffe7wCM4ne4aXv3MR"
+}

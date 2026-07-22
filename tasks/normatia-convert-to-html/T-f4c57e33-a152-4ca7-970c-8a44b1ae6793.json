@@ -1,0 +1,10 @@
+{
+  "id": "T-f4c57e33-a152-4ca7-970c-8a44b1ae6793",
+  "subject": "Create revisor.js from app.js",
+  "description": "Copy all 685 lines from public/app.js into revisor.js, wrap in initRevisor() export, move DOMContentLoaded logic inside",
+  "status": "completed",
+  "activeForm": "Creating revisor.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4efd85ffeDoWUmKsxKmPJLw"
+}

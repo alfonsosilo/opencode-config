@@ -1,0 +1,10 @@
+{
+  "id": "T-bb2b4747-43a9-44f1-becc-fa92de958d1a",
+  "subject": "Actualizar .env.example y test_apy.py",
+  "description": "Reemplazar GEMINI_API_KEY por AZURE_AI_API_KEY en .env.example y test_apy.py",
+  "status": "completed",
+  "activeForm": "Actualizando .env.example y test_apy.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1106ea7dbffeX4RRcpg2lCBQfw"
+}

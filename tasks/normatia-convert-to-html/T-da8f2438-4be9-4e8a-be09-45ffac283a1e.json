@@ -1,0 +1,10 @@
+{
+  "id": "T-da8f2438-4be9-4e8a-be09-45ffac283a1e",
+  "subject": "Update AGENTS.md for Azure AI migration",
+  "description": "Replace all Gemini/OpenRouter references with Azure AI (grok-4.3 + DeepSeek-V4-Pro)",
+  "status": "completed",
+  "activeForm": "Updating AGENTS.md",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_11065af6effeHBstgCKUw1ILYN"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-c801328e-1a7c-4cea-8e8a-a91bce3127af",
+  "subject": "Fase 0.4: Conversión de prueba ley-montes.pdf",
+  "description": "make convert-montes, inspeccionar salida, documentar gate",
+  "status": "completed",
+  "activeForm": "Validando conversión",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

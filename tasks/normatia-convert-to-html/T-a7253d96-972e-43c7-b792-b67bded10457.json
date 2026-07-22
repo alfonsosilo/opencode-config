@@ -1,0 +1,10 @@
+{
+  "id": "T-a7253d96-972e-43c7-b792-b67bded10457",
+  "subject": "Implement scripts/verify.py",
+  "description": "Visual verifier: fragment-to-images mapping, LLM comparison, verify-report.json generation",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-7908575a-a3dc-4827-aaa2-fba65af8f35a",
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

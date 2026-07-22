@@ -1,0 +1,10 @@
+{
+  "id": "T-8bf68c99-6cd4-4c5d-8e02-76a8829d7435",
+  "subject": "Fix term_references default None → []",
+  "description": "Change term_references default from None to [] in blocks upsert to match JS behavior",
+  "status": "completed",
+  "activeForm": "Fixing term_references default",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_14fc3fe1cffewa0pbQivShw98w"
+}

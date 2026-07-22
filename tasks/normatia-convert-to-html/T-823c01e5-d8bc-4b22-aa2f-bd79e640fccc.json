@@ -1,0 +1,10 @@
+{
+  "id": "T-823c01e5-d8bc-4b22-aa2f-bd79e640fccc",
+  "subject": "Create revisor.css from styles.css",
+  "description": "Copy all 301 lines from styles.css into revisor.css, remove only root vars / body / header reset (lines 1-58)",
+  "status": "completed",
+  "activeForm": "Creating revisor.css",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4efd85ffeDoWUmKsxKmPJLw"
+}

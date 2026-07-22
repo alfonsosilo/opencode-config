@@ -1,0 +1,9 @@
+{
+  "id": "T-b575a0de-2d39-4528-ac1a-a13056f6184d",
+  "subject": "NC.2 — extract_tables() con pdfplumber",
+  "description": "Añadir extract_tables() a converter-v2/extractor.py usando pdfplumber. Detectar tablas con celdas, rowspan/colspan. Marcar tablas inválidas (<2 cols) para VLM fallback.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

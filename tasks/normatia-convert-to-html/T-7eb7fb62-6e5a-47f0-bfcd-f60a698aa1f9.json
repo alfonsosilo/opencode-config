@@ -1,0 +1,10 @@
+{
+  "id": "T-7eb7fb62-6e5a-47f0-bfcd-f60a698aa1f9",
+  "subject": "Update index.html with 3-tab layout",
+  "description": "Add tab navigation (Conversor, Subida BD, Revisor), keep header + revisor elements, add conversor.css link and module script",
+  "status": "completed",
+  "activeForm": "Updating index.html",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de5c0854ffeN3R782wVu2MpJX"
+}

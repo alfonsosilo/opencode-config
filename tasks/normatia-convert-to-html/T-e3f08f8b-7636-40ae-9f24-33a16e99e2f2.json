@@ -1,0 +1,10 @@
+{
+  "id": "T-e3f08f8b-7636-40ae-9f24-33a16e99e2f2",
+  "subject": "F0: DocumentItem dataclass + normalizer.py",
+  "description": "Implementar la Etapa 1 del plan: DocumentItem dataclass con bbox, page_idx, block_id y el modulo normalizer.py que lee content_list_v2.json y produce DocumentItem[]. Porta la logica de build_compact_repr (merge de titulos compuestos, headings de grupo, falsos titulos) pero anadiendo captura de datos espaciales.",
+  "status": "completed",
+  "activeForm": "Implementing DocumentItem and normalizer.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

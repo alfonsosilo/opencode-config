@@ -1,0 +1,10 @@
+{
+  "id": "T-7f5e0427-3d21-442e-87c6-d122863e08ac",
+  "subject": "Refactor scripts/verify.py with 3 new modes + concurrency",
+  "description": "Implement text-layer comparison (--text-layer), visual diff (--visual-diff), block index (--block-index), and ThreadPoolExecutor concurrency. Import prompts from converter.prompts instead of inline.",
+  "status": "completed",
+  "activeForm": "Refactoring verify.py with new verification modes",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111682234ffedHPjWWn3sZkHZX"
+}

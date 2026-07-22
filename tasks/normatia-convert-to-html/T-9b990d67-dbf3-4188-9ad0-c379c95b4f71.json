@@ -1,0 +1,10 @@
+{
+  "id": "T-9b990d67-dbf3-4188-9ad0-c379c95b4f71",
+  "subject": "Add VERIFY_PROMPT constants to converter/prompts.py",
+  "description": "Move VERIFY_PROMPT from verify.py line 89-116 to converter/prompts.py following existing conventions. Add VISUAL_DIFF_PROMPT and BLOCK_INDEX_PROMPT for new modes.",
+  "status": "completed",
+  "activeForm": "Adding verification prompts to prompts.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111682234ffedHPjWWn3sZkHZX"
+}

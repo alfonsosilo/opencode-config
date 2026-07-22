@@ -1,0 +1,10 @@
+{
+  "id": "T-4e02c84a-d940-4eab-a69e-dbd05e9c13df",
+  "subject": "Create conversor.js",
+  "description": "Full conversor module: form rendering, drop zone, pipeline selector, toggles, advanced options, metadata, upload + SSE, progress, result panel",
+  "status": "completed",
+  "activeForm": "Creating conversor.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4efd85ffeDoWUmKsxKmPJLw"
+}

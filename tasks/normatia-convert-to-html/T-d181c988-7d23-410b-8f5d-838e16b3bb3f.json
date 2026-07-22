@@ -1,0 +1,10 @@
+{
+  "id": "T-d181c988-7d23-410b-8f5d-838e16b3bb3f",
+  "subject": "Create scripts/reprocess_orphan_refs.py to repair orphan refs in prod",
+  "description": "Create a new script that finds blocks with href=\"empty\" in prod and resolves them using LLM function calling. This is the only script that writes to production.",
+  "status": "completed",
+  "activeForm": "Creating reprocess_orphan_refs.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12094f82cffeCfNALSaxsChIWW"
+}

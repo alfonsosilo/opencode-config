@@ -1,0 +1,10 @@
+{
+  "id": "T-3d498f9e-c51b-40d4-bfc7-213342386e82",
+  "subject": "Fase 3: Adaptar app.js a los nuevos endpoints Supabase",
+  "description": "Cambiar fetchDocs, loadDoc, ensureIndex, saveBlock, renderDocOptions para usar los nuevos endpoints y formato de datos de Supabase",
+  "status": "completed",
+  "activeForm": "Adapting frontend to new API",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_106e0c5e2ffeMjyZTlNecd59dq"
+}

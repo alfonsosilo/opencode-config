@@ -1,0 +1,10 @@
+{
+  "id": "T-2ff69cb8-27eb-4dea-8c2c-2e66543e95fc",
+  "subject": "Fase 1.1: Implementar config.py",
+  "description": "Dataclass Config con campos backend, method, formula, table, timeout, azure_*, render_threads, window_size. Carga .env con python-dotenv.",
+  "status": "completed",
+  "activeForm": "Implementando config.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

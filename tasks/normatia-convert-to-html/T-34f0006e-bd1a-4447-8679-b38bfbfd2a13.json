@@ -1,0 +1,9 @@
+{
+  "id": "T-34f0006e-bd1a-4447-8679-b38bfbfd2a13",
+  "subject": "Refactor scripts/convert_to_json.py — thin wrapper over html_parser.py",
+  "description": "Remove duplicated parsing logic, import from converter.html_parser instead",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120a8398affe149bqc1KpEZ6GA"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-bb7f5e05-bb20-42ca-88a6-dc5f598fc799",
+  "subject": "Create docs/pipeline.md comprehensive pipeline guide in Spanish",
+  "description": "Write a comprehensive pipeline guide for newcomers explaining PDF→Supabase pipeline with definitions and references. Spanish, 8 sections as specified.",
+  "status": "completed",
+  "activeForm": "Writing pipeline.md guide",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_10b0ff744ffeJGg7P3Wi2AwDoj"
+}

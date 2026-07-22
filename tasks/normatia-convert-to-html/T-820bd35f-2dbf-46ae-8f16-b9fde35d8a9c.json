@@ -1,0 +1,9 @@
+{
+  "id": "T-820bd35f-2dbf-46ae-8f16-b9fde35d8a9c",
+  "subject": "Batch 1: Fase 5 — Añadir REFERENCES_EXTRACTION_PROMPT a prompts.py",
+  "description": "Añadir constante REFERENCES_EXTRACTION_PROMPT con el SYSTEM_INSTRUCTION del script Node create-article-ref.js.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

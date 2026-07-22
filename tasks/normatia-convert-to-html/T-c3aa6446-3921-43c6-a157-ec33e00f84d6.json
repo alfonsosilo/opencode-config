@@ -1,0 +1,9 @@
+{
+  "id": "T-c3aa6446-3921-43c6-a157-ec33e00f84d6",
+  "subject": "NC.1 — converter-v2/extractor.py (PyMuPDF text extraction)",
+  "description": "Crear converter-v2/extractor.py con TextBlock dataclass y extract_blocks() usando PyMuPDF. Incluye bug de caracteres duplicados (PyMuPDF no lo tiene, verificar).",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

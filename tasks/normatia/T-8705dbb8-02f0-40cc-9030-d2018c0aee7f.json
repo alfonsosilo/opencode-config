@@ -1,0 +1,10 @@
+{
+  "id": "T-8705dbb8-02f0-40cc-9030-d2018c0aee7f",
+  "subject": "Implement benchmark page (Estudio de Rigor Normativo)",
+  "description": "Build the full benchmark page at src/pages/es/benchmark/index.astro matching the Stitch design: hero with badge/title/CTA, 5 model metric cards (Normatia big + 4 in 2x2 grid), methodology 3-column section, dark quote section, and transparency/audit section.",
+  "status": "completed",
+  "activeForm": "Implementing benchmark page",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_177fabd09ffezpC6cxm64czlPR"
+}

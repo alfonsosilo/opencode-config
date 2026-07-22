@@ -1,0 +1,9 @@
+{
+  "id": "T-6258e319-6ca4-4189-9958-e4a12f94fd1f",
+  "subject": "Fase 5: Fixes finales — pyproject.toml y AGENTS.md",
+  "description": "Añadir dependencias mineru y openai, actualizar documentación AGENTS.md con el pipeline MinerU",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0a536dc8cffezEAR8YE7R9Pcls"
+}

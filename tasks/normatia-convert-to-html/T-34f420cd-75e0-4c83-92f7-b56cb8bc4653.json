@@ -1,0 +1,10 @@
+{
+  "id": "T-34f420cd-75e0-4c83-92f7-b56cb8bc4653",
+  "subject": "Verify with browser smoke test",
+  "description": "Run the visor server, open browser, verify 3 tabs render, conversor form works, revisor still loads docs",
+  "status": "in_progress",
+  "activeForm": "Verifying with browser",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de5c0854ffeN3R782wVu2MpJX"
+}

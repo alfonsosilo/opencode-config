@@ -1,0 +1,10 @@
+{
+  "id": "T-08968619-e394-4512-b1bf-95af9f2592ae",
+  "subject": "Update dependencies and scripts",
+  "description": "Update requirements.txt (google-genai → litellm), scripts/convert.py (remove GEMINI_API_KEY check), create .env.example",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-b7fefc9d-8b0a-49dc-be86-15ff75ee50bb",
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

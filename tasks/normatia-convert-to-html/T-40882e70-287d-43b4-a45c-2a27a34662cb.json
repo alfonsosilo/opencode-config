@@ -1,0 +1,10 @@
+{
+  "id": "T-40882e70-287d-43b4-a45c-2a27a34662cb",
+  "subject": "F4: Renderizado determinista a HTML",
+  "description": "Implementar renderer.py con render_tree() segun etapa 7 del plan. Funcion recursiva que convierte DocumentNode arbol a HTML. Reutilizar plantilla HTML5 de assembler.py (DOCTYPE, MathJax, CSS, metadatos). Manejar heading intro, listas anidadas, continuaciones, tablas, figuras, ecuaciones.",
+  "status": "completed",
+  "activeForm": "Implementing HTML renderer",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

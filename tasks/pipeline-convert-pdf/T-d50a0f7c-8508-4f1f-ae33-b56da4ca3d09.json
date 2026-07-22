@@ -1,0 +1,10 @@
+{
+  "id": "T-d50a0f7c-8508-4f1f-ae33-b56da4ca3d09",
+  "subject": "Fase 1.2: Implementar converter.py",
+  "description": "Wrapper subprocess mineru con timeout, ConversionResult dataclass, logging, manejo de errores.",
+  "status": "completed",
+  "activeForm": "Implementando converter.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

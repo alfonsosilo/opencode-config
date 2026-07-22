@@ -1,0 +1,10 @@
+{
+  "id": "T-f8b91eea-a953-4326-9678-59cfa4dd7a96",
+  "subject": "Fase 2.1: Implementar batch.py y añadir subcomando batch a CLI",
+  "description": "batch_convert con BatchReport, skip/force, ThreadPoolExecutor, + subcomando batch en cli.py",
+  "status": "completed",
+  "activeForm": "Implementando batch.py y subcomando batch",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-d58cae84-6448-4999-87ef-ad96244e1657",
+  "subject": "Add markdownify to requirements.txt",
+  "description": "Add markdownify package for HTML→Markdown conversion",
+  "status": "completed",
+  "activeForm": "Adding markdownify dependency",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_134818c6bffetC6WHCIsEXWGBw"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-d47058b7-db9f-46d5-8d84-29b96c3e9850",
+  "subject": "Rewrite Makefile with per-doc output structure",
+  "description": "Makefile: add PDF_DIR, HTML_DIR, PAGES_DIR, JSON_DIR variables; update all targets; remove INPUT variable; update clean",
+  "status": "completed",
+  "activeForm": "Rewriting Makefile",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1305d8dbaffeqVlNtx1ArLrHIg"
+}

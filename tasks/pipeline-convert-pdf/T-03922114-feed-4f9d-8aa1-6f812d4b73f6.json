@@ -1,0 +1,10 @@
+{
+  "id": "T-03922114-feed-4f9d-8aa1-6f812d4b73f6",
+  "subject": "Fase 0.2: Configurar entorno virtual e instalar deps con uv",
+  "description": "uv venv, uv pip install -e \".[dev]\", validar mineru --help",
+  "status": "completed",
+  "activeForm": "Instalando entorno",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

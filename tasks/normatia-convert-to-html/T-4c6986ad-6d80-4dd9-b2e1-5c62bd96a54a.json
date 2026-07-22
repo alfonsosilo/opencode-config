@@ -1,0 +1,11 @@
+{
+  "id": "T-4c6986ad-6d80-4dd9-b2e1-5c62bd96a54a",
+  "subject": "Ensure --no-overlap in visor MinerU workflow",
+  "description": "Update server.js (or wherever the visor orchestrates the split → mineru pipeline) to pass --no-overlap flag when splitting for MinerU method. Also update Makefile if there's a mineru-specific target.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-983ecd60-0be6-4d25-8a20-b8e941818943"
+  ],
+  "threadID": "ses_09b9dae99ffeWNeR6R39yWtTXQ"
+}

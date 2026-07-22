@@ -1,0 +1,10 @@
+{
+  "id": "T-f584b953-1ca8-4dfb-ab45-e26aec6f6803",
+  "subject": "Edit conversor.js: add buildGeoAutocomplete, swap in buildMetadataSection, fix buildMetadata",
+  "description": "Replace geo-id text input with autocomplete builder, modify buildMetadata geo_id source",
+  "status": "completed",
+  "activeForm": "Editing conversor.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dd7fa4c1ffenLeLE1Kn7W2OiA"
+}

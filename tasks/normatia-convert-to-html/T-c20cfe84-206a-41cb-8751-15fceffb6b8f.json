@@ -1,0 +1,12 @@
+{
+  "id": "T-c20cfe84-206a-41cb-8751-15fceffb6b8f",
+  "subject": "Wire normalize_table_html() into router.py direct_html path",
+  "description": "Call normalize_table_html() on clean_html before returning direct_html RouteResult in router.py:77",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-ae3a076f-afae-44f1-8d44-87003e93f751"
+  ],
+  "parentID": "T-fba98f49-e117-43ac-bf3f-18f3969193c6",
+  "threadID": "ses_07c8f2408ffef4rvxxy2Fx0sHB"
+}

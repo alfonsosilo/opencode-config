@@ -1,0 +1,12 @@
+{
+  "id": "T-2ef64ec7-424e-413a-9db9-e23f54cd99de",
+  "subject": "B.3: Create scripts/repair.py (surgical fix without bbox)",
+  "description": "New script: when autofix/completitud flags anomalies → locate pages via <!-- PAGINA_X --> markers → crop full page images → send HTML fragment + page images + surgical prompt to LLM → splice fix back into HTML. Use generate_with_fallback, rollback with rules.run_all_validations, register in corrections table. Reuses converter/rules.py from B.2. DEPENDS ON B.1b (page markers).",
+  "status": "completed",
+  "activeForm": "Creating surgical repair script",
+  "blocks": [],
+  "blockedBy": [
+    "T-bb8be9b9-ba08-463e-b1cb-7f584381cd06"
+  ],
+  "threadID": "ses_111cd3604ffe6hnyXji387d1uO"
+}

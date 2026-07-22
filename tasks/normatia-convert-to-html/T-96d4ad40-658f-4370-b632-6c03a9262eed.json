@@ -1,0 +1,10 @@
+{
+  "id": "T-96d4ad40-658f-4370-b632-6c03a9262eed",
+  "subject": "Mejorar prompt en app.py con reglas de headings compuestos",
+  "description": "Añadir instrucciones al prompt de Gemini para que no splittee headings como \"CAPÍTULO II\" + \"Régimen jurídico...\" en dos tags separados, sino que los una en un solo heading.",
+  "status": "completed",
+  "activeForm": "Mejorando prompt de Gemini",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_144395e80ffellcG1743cZT5Mw"
+}

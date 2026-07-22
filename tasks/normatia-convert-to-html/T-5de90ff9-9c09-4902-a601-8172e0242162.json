@@ -1,0 +1,10 @@
+{
+  "id": "T-5de90ff9-9c09-4902-a601-8172e0242162",
+  "subject": "B.2: Extract fix rules to converter/rules.py",
+  "description": "Extract HEADING_TAGS, HEADING_RULES, MD_PATTERNS constants + all 11 fix/validate functions from scripts/fix.py into new converter/rules.py. Refactor scripts/fix.py to import from converter/rules.py, keeping only CLI + fix_html() orchestrator. Add run_all_validations() as public entry point for B.3 usage.",
+  "status": "completed",
+  "activeForm": "Refactoring fix.py rules into converter/rules.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111cd3604ffe6hnyXji387d1uO"
+}

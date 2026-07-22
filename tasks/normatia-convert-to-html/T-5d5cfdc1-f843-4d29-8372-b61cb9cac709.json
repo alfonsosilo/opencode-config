@@ -1,0 +1,9 @@
+{
+  "id": "T-5d5cfdc1-f843-4d29-8372-b61cb9cac709",
+  "subject": "Replace OpenRouter fallback with Azure gpt-5.4",
+  "description": "Implement plan from .omo/plans/replace-openrouter-with-azure-fallback.md: 6 files + docs. Verify Azure connection at end.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0d8ab4933ffeD4qmN74VGb10Jc"
+}

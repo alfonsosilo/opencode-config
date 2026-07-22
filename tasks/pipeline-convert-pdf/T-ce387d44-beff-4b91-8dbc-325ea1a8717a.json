@@ -1,0 +1,10 @@
+{
+  "id": "T-ce387d44-beff-4b91-8dbc-325ea1a8717a",
+  "subject": "Fase 1.4: Implementar cli.py",
+  "description": "argparse con subcomandos convert y models download. Importa converter y postprocess.",
+  "status": "completed",
+  "activeForm": "Implementando cli.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

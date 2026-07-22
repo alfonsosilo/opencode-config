@@ -1,0 +1,10 @@
+{
+  "id": "T-f60a6698-192d-4172-adaf-3cf0c55d20d3",
+  "subject": "Implement scripts/fix.py",
+  "description": "Structural HTML corrector: html5lib parse, 14 mechanical rules, regex heading correction, report.json generation",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-7908575a-a3dc-4827-aaa2-fba65af8f35a",
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

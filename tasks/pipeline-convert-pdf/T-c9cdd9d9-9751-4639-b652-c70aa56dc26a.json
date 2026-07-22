@@ -1,0 +1,10 @@
+{
+  "id": "T-c9cdd9d9-9751-4639-b652-c70aa56dc26a",
+  "subject": "Fase 5.2: Preprocesador de falsos headings",
+  "description": "fix_false_headings: usa JSON del VLM para degradar ## falsos a **bold**",
+  "status": "completed",
+  "activeForm": "Implementando preprocesador falsos headings",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

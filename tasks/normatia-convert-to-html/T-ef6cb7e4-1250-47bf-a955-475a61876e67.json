@@ -1,0 +1,9 @@
+{
+  "id": "T-ef6cb7e4-1250-47bf-a955-475a61876e67",
+  "subject": "Create converter/html_parser.py — extract parsing logic from convert_to_json.py",
+  "description": "Extract all parsing functions and constants from scripts/convert_to_json.py into reusable module",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120a8398affe149bqc1KpEZ6GA"
+}

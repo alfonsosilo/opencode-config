@@ -1,0 +1,10 @@
+{
+  "id": "T-8f13b43f-b2ae-43fb-bc19-6f3efd26ddfc",
+  "subject": "Scripts: Add --metadata-json to join.py + update merge.py template",
+  "description": "Add --metadata-json arg to join.py, parse JSON, pass to merge_html_files. Update merge.py template to accept new metadata fields (language, published_date, normative_scope, geo_id) with backward compat",
+  "status": "completed",
+  "activeForm": "Updating join.py and merge.py for metadata injection",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de52a3e0ffe4fnytVpzbNCu5E"
+}

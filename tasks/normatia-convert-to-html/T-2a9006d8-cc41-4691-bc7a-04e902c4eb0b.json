@@ -1,0 +1,9 @@
+{
+  "id": "T-2a9006d8-cc41-4691-bc7a-04e902c4eb0b",
+  "subject": "Batch 3: Fase 4a — Crear scripts/add_term_links_cte.py",
+  "description": "Script que lee 02-with-articles.json, indexa bloques definition por aria_label, busca tags <i> en content_html y los enlaza a definiciones (o href=\"empty\").",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-61ace7ab-8199-4dda-b93d-2d5e55594189",
+  "subject": "Fase 4: Backend server.js — branching MinerU",
+  "description": "Añadir branching en POST /api/convert/run para ejecutar mineru_convert.py cuando method === \"mineru\", y ajustar download",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0a536dc8cffezEAR8YE7R9Pcls"
+}

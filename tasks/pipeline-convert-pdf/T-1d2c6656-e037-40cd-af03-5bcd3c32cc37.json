@@ -1,0 +1,10 @@
+{
+  "id": "T-1d2c6656-e037-40cd-af03-5bcd3c32cc37",
+  "subject": "Fase 5.4: Cliente Azure + ensamblador HTML + CLI",
+  "description": "azure_client.py (GPT-5.4), html_assembler.py, subcomando convert-to-html",
+  "status": "completed",
+  "activeForm": "Implementando cliente Azure + HTML assembler",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

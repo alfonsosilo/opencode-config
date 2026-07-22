@@ -1,0 +1,10 @@
+{
+  "id": "T-c63d9b12-7770-4e67-9909-61f4d94d1db7",
+  "subject": "Add --metadata-json CLI argument and update merge template",
+  "description": "Update scripts/join.py to accept --metadata-json arg and update converter/merge.py template with all new metadata fields",
+  "status": "completed",
+  "activeForm": "Adding metadata-json support to join.py and merge.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4fd9b2ffeP39zAM31ZuMpMu"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-58f52e1a-5300-4c02-bc1d-db2f8f8b071f",
+  "subject": "B.4 — Refactor verify.py (completitud)",
+  "description": "Refactor scripts/verify.py to add: text layer comparison (pypdf vs HTML), page coverage check, statistical anomalies. Merge current image-based verification with block-level judge.",
+  "status": "in_progress",
+  "activeForm": "Refactoring verify.py for completitud",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-7aa1fded-6954-47f1-9226-d65920a38446",
+  "subject": "Create scripts/add_term_links_no_cte.py",
+  "description": "Port the Node.js add-term-link-no-cte-v2.js to Python: definition indexing, master regex, text-node traversal with BS4",
+  "status": "completed",
+  "activeForm": "Writing scripts/add_term_links_no_cte.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12fdbde9effe2CHuhlHNYghZjt"
+}

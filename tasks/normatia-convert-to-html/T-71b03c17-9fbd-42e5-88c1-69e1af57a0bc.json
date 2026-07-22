@@ -1,0 +1,9 @@
+{
+  "id": "T-71b03c17-9fbd-42e5-88c1-69e1af57a0bc",
+  "subject": "Implement model chain architecture",
+  "description": "Implement plan from .omo/plans/model-chain-architecture.md: HTML_MODEL_CHAIN + REFS_MODEL_CHAIN, refactor _generate(), add DeepSeek, update scripts and docs.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0d8ab4933ffeD4qmN74VGb10Jc"
+}

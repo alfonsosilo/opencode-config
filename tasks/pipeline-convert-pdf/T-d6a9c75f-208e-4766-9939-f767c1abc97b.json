@@ -1,0 +1,10 @@
+{
+  "id": "T-d6a9c75f-208e-4766-9939-f767c1abc97b",
+  "subject": "Refactor: prompt file + model centralization + audit",
+  "description": "1) Prompt a archivo propio 2) Modelo centralizado 3) Auditoria completa",
+  "status": "completed",
+  "activeForm": "Refactorizando y auditando proyecto",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-08993cef-a036-4c18-935e-fd10c05be3e9",
+  "subject": "Register spec-writer in oh-my-openagent.json",
+  "description": "Add spec-writer agent config and update Sisyphus prompt with SDD workflow triggers",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0bfa58326ffe0hJ8t2dWsoJplu"
+}

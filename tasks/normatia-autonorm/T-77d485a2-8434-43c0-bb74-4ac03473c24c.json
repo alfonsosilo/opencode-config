@@ -1,0 +1,10 @@
+{
+  "id": "T-77d485a2-8434-43c0-bb74-4ac03473c24c",
+  "subject": "Add effective_date to NormativaDocument and documents upsert",
+  "description": "Add effective_date: Optional[str] = None to NormativaDocument model in mapper.py and include it in documents upsert in cli.py",
+  "status": "completed",
+  "activeForm": "Adding effective_date to documents",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_14fc3fe1cffewa0pbQivShw98w"
+}

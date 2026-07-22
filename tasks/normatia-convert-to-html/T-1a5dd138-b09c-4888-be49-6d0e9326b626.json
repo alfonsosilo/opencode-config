@@ -1,0 +1,10 @@
+{
+  "id": "T-1a5dd138-b09c-4888-be49-6d0e9326b626",
+  "subject": "A.7 — scripts/reprocess_orphan_refs.py",
+  "description": "New script: repair href=\"empty\" in docs already in prod. Finds blocks WHERE content_html LIKE '%href=\"empty\"%', applies same resolution as A.2. Only script (with sync) writing to prod. ON CONFLICT DO NOTHING. Flags: --dry-run, --count, --document-id.",
+  "status": "completed",
+  "activeForm": "Creating reprocess_orphan_refs.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

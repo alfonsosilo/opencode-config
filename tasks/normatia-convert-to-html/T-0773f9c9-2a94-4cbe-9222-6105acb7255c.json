@@ -1,0 +1,10 @@
+{
+  "id": "T-0773f9c9-2a94-4cbe-9222-6105acb7255c",
+  "subject": "Add save_pages flag to engine.py + scripts/convert.py",
+  "description": "Add save_pages param to process_pdf_to_html(), propagate --save-pages CLI arg",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-7908575a-a3dc-4827-aaa2-fba65af8f35a",
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-fba98f49-e117-43ac-bf3f-18f3969193c6",
+  "subject": "Add semantic table structure (<thead>, <th>, <tbody>) to MinerU pipeline",
+  "description": "Create table_normalizer.py utility, wire into router.py for direct_html path, and improve Azure transcription prompt in llm_escalate.py",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_07c8f2408ffef4rvxxy2Fx0sHB"
+}

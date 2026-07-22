@@ -1,0 +1,10 @@
+{
+  "id": "T-ec125d49-d6f1-493c-b3f2-26c62f840390",
+  "subject": "Implement scripts/fix.py — structural HTML corrector",
+  "description": "Write the complete scripts/fix.py with 11 mechanical fixes, report.json generation, and optional AI heading correction phase.",
+  "status": "completed",
+  "activeForm": "Writing scripts/fix.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_135009835ffdVfaCVDFHRGEF65"
+}

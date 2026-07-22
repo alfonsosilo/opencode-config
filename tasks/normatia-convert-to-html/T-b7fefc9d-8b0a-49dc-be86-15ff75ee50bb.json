@@ -1,0 +1,10 @@
+{
+  "id": "T-b7fefc9d-8b0a-49dc-be86-15ff75ee50bb",
+  "subject": "Implement model-agnostic LLM layer",
+  "description": "Create converter/llm/ package (config.py, adapter.py, __init__.py), refactor engine.py, update requirements.txt, scripts/convert.py, create .env.example",
+  "status": "completed",
+  "activeForm": "Implementing model-agnostic LLM layer",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

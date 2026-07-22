@@ -1,0 +1,10 @@
+{
+  "id": "T-c2e1d6bb-fa85-4f4b-9d58-f1574efb2b6a",
+  "subject": "F2: Parser de marcadores de lista",
+  "description": "Implementar markers.py con parse_marker() segun etapa 3 del plan. Detectar marcadores: numericos (1., 2.), dotted (1.1., 1.2.3), alfabeticos (a), b)), romanos (i., ii.), ordinales (1o., 2o.), bullets (-, •, *). Con depth_hint para cada tipo. Respetar items ya clasificados como headings.",
+  "status": "completed",
+  "activeForm": "Implementing marker parser",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-e2ab0106-7000-43b2-9676-de0fc407fa74",
+  "subject": "Fase 5.3: Representación compacta + chunker por JSON titles",
+  "description": "compact_repr.py (type hints inline) + chunker.py (corta por type: title)",
+  "status": "completed",
+  "activeForm": "Implementando compact repr + chunker",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

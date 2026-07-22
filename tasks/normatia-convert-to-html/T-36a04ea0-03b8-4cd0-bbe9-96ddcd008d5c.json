@@ -1,0 +1,10 @@
+{
+  "id": "T-36a04ea0-03b8-4cd0-bbe9-96ddcd008d5c",
+  "subject": "Update Makefile with new output structure",
+  "description": "Add DOC_OUTPUT/PAGES_DIR variables, update all targets (split, convert, convert-verbose, convert-one, join, fix, verify, to-json, all, all-fixed, clean).",
+  "status": "pending",
+  "activeForm": "Updating Makefile targets",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_13087fad1ffeiuR3jsIktk9NMF"
+}

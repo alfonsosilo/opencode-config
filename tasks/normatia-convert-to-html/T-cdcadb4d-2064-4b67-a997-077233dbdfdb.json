@@ -1,0 +1,10 @@
+{
+  "id": "T-cdcadb4d-2064-4b67-a997-077233dbdfdb",
+  "subject": "Add pages_dir parameter to process_pdf_to_html()",
+  "description": "Modify converter/engine.py to accept optional pages_dir parameter. When provided, use it directly; when None, keep current behavior.",
+  "status": "in_progress",
+  "activeForm": "Adding pages_dir parameter to engine.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_13087fad1ffeiuR3jsIktk9NMF"
+}

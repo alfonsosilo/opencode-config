@@ -1,0 +1,9 @@
+{
+  "id": "T-a51e8ecf-a498-4b62-9ded-34449c798a8e",
+  "subject": "Batch 2: Fase 3 — Crear scripts/add_article_links.py",
+  "description": "Script que lee 00-initial.json + 01-references.json, inyecta referencias como <a class=\"article-link\"> en content_html, y escribe 02-with-articles.json.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

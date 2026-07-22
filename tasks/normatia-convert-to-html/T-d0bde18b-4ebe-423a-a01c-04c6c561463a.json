@@ -1,0 +1,9 @@
+{
+  "id": "T-d0bde18b-4ebe-423a-a01c-04c6c561463a",
+  "subject": "Fase 6: Añadir nuevos targets al Makefile",
+  "description": "Añadir DEF_MODE, create-refs, add-articles, add-terms, all-json, all-full al Makefile.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

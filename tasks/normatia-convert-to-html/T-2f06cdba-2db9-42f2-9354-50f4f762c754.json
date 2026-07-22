@@ -1,0 +1,10 @@
+{
+  "id": "T-2f06cdba-2db9-42f2-9354-50f4f762c754",
+  "subject": "Replace _extract_context() function in engine.py",
+  "description": "Replace the _extract_context() function (lines 70-106) with the enriched version that adds list_nesting_level, ultimo_li, parrafo_abierto, ultimo_texto",
+  "status": "completed",
+  "activeForm": "Replacing _extract_context() function",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba5a6437ffehSL8BKrX5TCAn7"
+}

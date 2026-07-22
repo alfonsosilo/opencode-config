@@ -1,0 +1,9 @@
+{
+  "id": "T-7ce76014-760f-4fe9-b1fc-93c4284da549",
+  "subject": "QW.5 — Fix convert.py --file is_first/is_last",
+  "description": "Corregir is_first=False, is_last=False a True,True en process_single_file de scripts/convert.py",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

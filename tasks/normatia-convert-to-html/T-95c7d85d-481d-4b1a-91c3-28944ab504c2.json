@@ -1,0 +1,10 @@
+{
+  "id": "T-95c7d85d-481d-4b1a-91c3-28944ab504c2",
+  "subject": "B.2 — converter/rules.py + refactor fix.py",
+  "description": "Extract all validation/correction rules from scripts/fix.py into converter/rules.py. Refactor fix.py to thin CLI wrapper importing from rules.py. Add merge of split articles between fragments using page markers.",
+  "status": "in_progress",
+  "activeForm": "Extracting rules from fix.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

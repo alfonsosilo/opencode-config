@@ -1,0 +1,10 @@
+{
+  "id": "T-7b69d897-c5d0-44b6-bbd7-07a28cd17eaf",
+  "subject": "Migrar reprocess_orphan_refs.py al Router",
+  "description": "Reemplazar litellm.completion directo con Gemini por router.completion(model=\"pdf-primary\")",
+  "status": "completed",
+  "activeForm": "Migrando reprocess_orphan_refs.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1106ea7dbffeX4RRcpg2lCBQfw"
+}

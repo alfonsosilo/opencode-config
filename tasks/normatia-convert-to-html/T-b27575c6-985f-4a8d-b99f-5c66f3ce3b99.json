@@ -1,0 +1,9 @@
+{
+  "id": "T-b27575c6-985f-4a8d-b99f-5c66f3ce3b99",
+  "subject": "Fase 1: Migrar capa LLM core a genai-first para HTML pipeline",
+  "description": "Crear genai_client.py, modificar adapter.py, config.py, __init__.py para que Gemini use google-genai SDK y LiteLLM solo para fallbacks OpenRouter",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0e333891fffe1BmqRcHBfguRH6"
+}

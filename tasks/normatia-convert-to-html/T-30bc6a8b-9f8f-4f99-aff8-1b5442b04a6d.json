@@ -1,0 +1,10 @@
+{
+  "id": "T-30bc6a8b-9f8f-4f99-aff8-1b5442b04a6d",
+  "subject": "Change JSON output filename to 00-initial.json",
+  "description": "scripts/convert_to_json.py: line 674-675, change from {collection_slug}.json to 00-initial.json",
+  "status": "completed",
+  "activeForm": "Changing JSON filename",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1305d8dbaffeqVlNtx1ArLrHIg"
+}

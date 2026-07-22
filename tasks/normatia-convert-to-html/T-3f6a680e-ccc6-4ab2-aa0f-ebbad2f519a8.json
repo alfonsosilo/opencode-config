@@ -1,0 +1,10 @@
+{
+  "id": "T-3f6a680e-ccc6-4ab2-aa0f-ebbad2f519a8",
+  "subject": "Verify script: LSP diagnostics + manual test",
+  "description": "Run LSP diagnostics and verify the script works",
+  "status": "completed",
+  "activeForm": "Verifying implementation",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_134818c6bffetC6WHCIsEXWGBw"
+}

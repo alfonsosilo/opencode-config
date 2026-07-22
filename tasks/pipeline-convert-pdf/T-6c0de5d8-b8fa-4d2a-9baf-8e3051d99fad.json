@@ -1,0 +1,10 @@
+{
+  "id": "T-6c0de5d8-b8fa-4d2a-9baf-8e3051d99fad",
+  "subject": "Fase 5.1: hybrid-engine en converter, CLI, batch, config",
+  "description": "effort en Config, path discovery hybrid_auto, --effort en CLI, Makefile -m all",
+  "status": "in_progress",
+  "activeForm": "Integrando hybrid-engine en pipeline",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

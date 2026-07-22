@@ -1,0 +1,10 @@
+{
+  "id": "T-abe5bf6f-d57e-4767-83d3-b67385fa9f69",
+  "subject": "F3: Árbol de listas con pila + x0 + heurística posicional",
+  "description": "Implementar list_tree.py con DocumentNode, ListFrame, build_document_tree() segun etapa 5 del plan. Algoritmo de pila para construir arbol de listas usando x0_continuation + heuristica posicional. Reclasificar headings que son realmente items de lista. Manejar continuaciones sin marcador.",
+  "status": "completed",
+  "activeForm": "Building list tree algorithm",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

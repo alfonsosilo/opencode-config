@@ -1,0 +1,10 @@
+{
+  "id": "T-9af52e09-c8d0-4d00-8bc9-bff1cb3f92b8",
+  "subject": "Fase 2.2: Validar batch con los 4 PDFs",
+  "description": "make batch, skip/force check, reporte correcto, todos los .md legibles",
+  "status": "completed",
+  "activeForm": "Validando batch end-to-end con 4 PDFs",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

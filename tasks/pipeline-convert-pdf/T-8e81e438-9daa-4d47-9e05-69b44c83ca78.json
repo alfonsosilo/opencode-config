@@ -1,0 +1,10 @@
+{
+  "id": "T-8e81e438-9daa-4d47-9e05-69b44c83ca78",
+  "subject": "Instalar basedpyright y validar tipos",
+  "description": "Añadir basedpyright a dev deps, validar src/pdf_pipeline/ sin errores de tipo",
+  "status": "completed",
+  "activeForm": "Validando tipos con basedpyright",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

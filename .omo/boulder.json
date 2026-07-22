@@ -6,9 +6,9 @@
       "work_id": "opencode-config-optimization-f0037b3e",
       "active_plan": "/Users/alfonsoserrano/.config/opencode/.omo/plans/opencode-config-optimization.md",
       "plan_name": "opencode-config-optimization",
-      "status": "active",
+      "status": "completed",
       "started_at": "2026-06-01T14:01:16.576Z",
-      "updated_at": "2026-06-01T14:13:53.897Z",
+      "updated_at": "2026-06-01T14:18:51.563Z",
       "session_ids": [
         "opencode:ses_17c9077a8ffeApV119DnsEXwZp"
       ],
@@ -81,14 +81,54 @@
           "status": "completed",
           "ended_at": "2026-06-01T14:13:53.897Z",
           "elapsed_ms": 7011
+        },
+        "todo:6": {
+          "task_key": "todo:6",
+          "task_label": "6",
+          "task_title": "Smoke test final + comparacion de tokens",
+          "session_id": "opencode:ses_17c77289dffe9hPRDdB8bA77Da",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "updated_at": "2026-06-01T14:16:28.176Z",
+          "started_at": "2026-06-01T14:16:20.673Z",
+          "status": "completed",
+          "ended_at": "2026-06-01T14:16:28.176Z",
+          "elapsed_ms": 7503
+        },
+        "final-wave:f1": {
+          "task_key": "final-wave:f1",
+          "task_label": "F1",
+          "task_title": "Plan Compliance Audit — verify the opencode-config-optimization plan was properly executed.",
+          "session_id": "opencode:ses_17c74d279ffeOY238BjDUIy7Pd",
+          "agent": "oracle",
+          "updated_at": "2026-06-01T14:17:48.053Z",
+          "started_at": "2026-06-01T14:17:43.549Z",
+          "status": "completed",
+          "ended_at": "2026-06-01T14:17:48.052Z",
+          "elapsed_ms": 4503
+        },
+        "final-wave:f2": {
+          "task_key": "final-wave:f2",
+          "task_label": "F2",
+          "task_title": "Validacion Final — verify all optimization changes are correctly applied.",
+          "session_id": "opencode:ses_17c739fbdffeqPvFhcJR9jH04q",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "updated_at": "2026-06-01T14:18:27.155Z",
+          "started_at": "2026-06-01T14:18:08.831Z",
+          "status": "completed",
+          "ended_at": "2026-06-01T14:18:27.155Z",
+          "elapsed_ms": 18324
         }
-      }
+      },
+      "ended_at": "2026-06-01T14:18:51.563Z",
+      "elapsed_ms": 1054987
     }
   },
   "active_plan": "/Users/alfonsoserrano/.config/opencode/.omo/plans/opencode-config-optimization.md",
   "started_at": "2026-06-01T14:01:16.576Z",
-  "status": "active",
-  "updated_at": "2026-06-01T14:13:53.897Z",
+  "status": "completed",
+  "updated_at": "2026-06-01T14:18:51.563Z",
   "session_ids": [
     "opencode:ses_17c9077a8ffeApV119DnsEXwZp"
   ],
@@ -161,7 +201,47 @@
       "status": "completed",
       "ended_at": "2026-06-01T14:13:53.897Z",
       "elapsed_ms": 7011
+    },
+    "todo:6": {
+      "task_key": "todo:6",
+      "task_label": "6",
+      "task_title": "Smoke test final + comparacion de tokens",
+      "session_id": "opencode:ses_17c77289dffe9hPRDdB8bA77Da",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-low",
+      "updated_at": "2026-06-01T14:16:28.176Z",
+      "started_at": "2026-06-01T14:16:20.673Z",
+      "status": "completed",
+      "ended_at": "2026-06-01T14:16:28.176Z",
+      "elapsed_ms": 7503
+    },
+    "final-wave:f1": {
+      "task_key": "final-wave:f1",
+      "task_label": "F1",
+      "task_title": "Plan Compliance Audit — verify the opencode-config-optimization plan was properly executed.",
+      "session_id": "opencode:ses_17c74d279ffeOY238BjDUIy7Pd",
+      "agent": "oracle",
+      "updated_at": "2026-06-01T14:17:48.053Z",
+      "started_at": "2026-06-01T14:17:43.549Z",
+      "status": "completed",
+      "ended_at": "2026-06-01T14:17:48.052Z",
+      "elapsed_ms": 4503
+    },
+    "final-wave:f2": {
+      "task_key": "final-wave:f2",
+      "task_label": "F2",
+      "task_title": "Validacion Final — verify all optimization changes are correctly applied.",
+      "session_id": "opencode:ses_17c739fbdffeqPvFhcJR9jH04q",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-low",
+      "updated_at": "2026-06-01T14:18:27.155Z",
+      "started_at": "2026-06-01T14:18:08.831Z",
+      "status": "completed",
+      "ended_at": "2026-06-01T14:18:27.155Z",
+      "elapsed_ms": 18324
     }
   },
-  "agent": "atlas"
+  "agent": "atlas",
+  "ended_at": "2026-06-01T14:18:51.563Z",
+  "elapsed_ms": 1054987
 }

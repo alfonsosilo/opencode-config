@@ -1,0 +1,10 @@
+{
+  "id": "T-c6d14c26-983d-442c-805f-0e2e2c893beb",
+  "subject": "Actualizar documentación (AGENTS.md, README.md)",
+  "description": "Actualizar referencias a Gemini/OpenRouter por Azure AI/grok-4.3 en docs",
+  "status": "completed",
+  "activeForm": "Actualizando documentación",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1106ea7dbffeX4RRcpg2lCBQfw"
+}

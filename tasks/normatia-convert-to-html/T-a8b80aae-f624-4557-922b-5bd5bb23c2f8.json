@@ -1,0 +1,10 @@
+{
+  "id": "T-a8b80aae-f624-4557-922b-5bd5bb23c2f8",
+  "subject": "Modify visor/public/index.html",
+  "description": "Replace placeholder content in #tab-subida with empty section. Add &lt;link rel=\"stylesheet\" href=\"subida.css\" /&gt; in head after conversor.css.",
+  "status": "completed",
+  "activeForm": "Modifying index.html",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dda3e956ffeSjNThz3ZVreJuU"
+}

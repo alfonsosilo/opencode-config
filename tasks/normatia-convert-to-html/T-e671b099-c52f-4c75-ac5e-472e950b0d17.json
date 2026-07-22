@@ -1,0 +1,10 @@
+{
+  "id": "T-e671b099-c52f-4c75-ac5e-472e950b0d17",
+  "subject": "Fase 4: Pruebas y validación del visor v2",
+  "description": "Probar todos los endpoints, flujo frontend, guardado, creación/eliminación de enlaces, búsqueda cross-document. Verificar que no hay regresiones.",
+  "status": "completed",
+  "activeForm": "Running functional tests",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_106e0c5e2ffeMjyZTlNecd59dq"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-3b74951b-28b4-4c43-a8a9-69f02abef37d",
+  "subject": "Create converter/db.py — lazy psycopg2 pool + supabase client",
+  "description": "Create new module with lazy connection pool, query helpers, and supabase clients",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120a8398affe149bqc1KpEZ6GA"
+}

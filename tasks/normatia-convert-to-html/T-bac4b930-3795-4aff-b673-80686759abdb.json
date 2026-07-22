@@ -1,0 +1,9 @@
+{
+  "id": "T-bac4b930-3795-4aff-b673-80686759abdb",
+  "subject": "NC.5 — detect_lists() en structure.py",
+  "description": "Implementar detect_lists(): detectar marcadores (1./a)/i)/•), agrupar por nivel de indentación x0, construir árbol anidado con sublist. Continuidad entre páginas. Confidence según claridad de indentación.",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

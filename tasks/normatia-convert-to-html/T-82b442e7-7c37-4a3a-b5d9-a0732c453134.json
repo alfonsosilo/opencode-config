@@ -1,0 +1,10 @@
+{
+  "id": "T-82b442e7-7c37-4a3a-b5d9-a0732c453134",
+  "subject": "Add tooltip styles to conversor.css",
+  "description": "Add .info-icon, .info-icon::after tooltip, .config-section h3 flex, and .conversor-right .info-icon::after reposition styles after line 25.",
+  "status": "completed",
+  "activeForm": "Adding tooltip styles to conversor.css",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dd950d86ffdDH6YkeJnp5EatK"
+}

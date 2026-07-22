@@ -1,0 +1,10 @@
+{
+  "id": "T-71b56e28-39ee-48a1-9ae4-562ea42c965b",
+  "subject": "Add metadata field to Section model and upsert",
+  "description": "Add metadata: dict = {} to Section Pydantic model in mapper.py and include it in sections upsert in cli.py",
+  "status": "completed",
+  "activeForm": "Adding section metadata field",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_14fc3fe1cffewa0pbQivShw98w"
+}

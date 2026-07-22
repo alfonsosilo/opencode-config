@@ -1,0 +1,9 @@
+{
+  "id": "T-4aed8f86-6980-4012-9811-fc1496ac28a8",
+  "subject": "NC.6 — group_paragraphs() en structure.py",
+  "description": "Implementar group_paragraphs(): agrupar líneas por proximidad vertical + fusión entre páginas con heurística universal. Registrar merge_log.",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

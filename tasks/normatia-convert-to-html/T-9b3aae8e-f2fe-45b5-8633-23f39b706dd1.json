@@ -1,0 +1,10 @@
+{
+  "id": "T-9b3aae8e-f2fe-45b5-8633-23f39b706dd1",
+  "subject": "F7: Procesamiento de imágenes con conversión JPG",
+  "description": "Crear images.py con process_images() que renombra, convierte a JPG y copia imagenes al directorio de salida. Manejar imagenes faltantes gracefully.",
+  "status": "completed",
+  "activeForm": "Implementing image processing",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

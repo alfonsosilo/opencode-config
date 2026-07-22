@@ -1,0 +1,9 @@
+{
+  "id": "T-b34c8c47-d4a6-44b0-bbd6-c070f355d059",
+  "subject": "NC.4 — detect_headings() en structure.py",
+  "description": "Implementar converter_v2/structure.py con detect_headings(): regex HEADING_RULES + font_name \"Bold\" + x0 (indentación). Headings compuestos (mergear línea siguiente si no matchea regex). Confidence 1.0 regex, 0.7 sin regex.",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

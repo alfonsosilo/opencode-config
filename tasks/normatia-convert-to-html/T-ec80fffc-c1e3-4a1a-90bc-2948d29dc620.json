@@ -1,0 +1,10 @@
+{
+  "id": "T-ec80fffc-c1e3-4a1a-90bc-2948d29dc620",
+  "subject": "Create scripts/repair.py — surgical HTML repair script",
+  "description": "Build the Fase B.3 repair script per detailed specification. Parse reports, locate pages, call VLM for focused correction, splice, validate, log.",
+  "status": "completed",
+  "activeForm": "Building scripts/repair.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1115b5746ffe1afEYbEJUUkZJ2"
+}

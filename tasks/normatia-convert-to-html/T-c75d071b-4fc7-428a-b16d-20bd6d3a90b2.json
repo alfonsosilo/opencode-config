@@ -1,0 +1,12 @@
+{
+  "id": "T-c75d071b-4fc7-428a-b16d-20bd6d3a90b2",
+  "subject": "Integrar deduplicate_fragments() en merge_html_files()",
+  "description": "Modificar merge_html_files() para que procese el contenido HTML a través de deduplicate_fragments() antes de concatenar los fragmentos.",
+  "status": "completed",
+  "activeForm": "Integrando dedup en merge_html_files()",
+  "blocks": [],
+  "blockedBy": [
+    "T-253e1e0d-724c-4679-8db6-cb5dadb30650"
+  ],
+  "threadID": "ses_144395e80ffellcG1743cZT5Mw"
+}

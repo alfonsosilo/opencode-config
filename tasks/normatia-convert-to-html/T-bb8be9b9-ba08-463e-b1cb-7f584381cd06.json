@@ -1,0 +1,10 @@
+{
+  "id": "T-bb8be9b9-ba08-463e-b1cb-7f584381cd06",
+  "subject": "B.1: Sliding context + page markers (prompts.py, engine.py, convert.py)",
+  "description": "Add {CONTEXTO_ANTERIOR} placeholder + <!-- PAGINA_X --> instruction to DEFAULT_DASHBOARD_PROMPT in prompts.py. Add contexto_anterior parameter to process_pdf_to_html() in engine.py, inject context into prompt at line 147. Add state tracking in scripts/convert.py batch loop. Update converter/__init__.py if signature changes.",
+  "status": "completed",
+  "activeForm": "Implementing sliding context and page markers",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111cd3604ffe6hnyXji387d1uO"
+}

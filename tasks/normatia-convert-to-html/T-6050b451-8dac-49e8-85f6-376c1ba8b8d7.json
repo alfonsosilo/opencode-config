@@ -1,0 +1,9 @@
+{
+  "id": "T-6050b451-8dac-49e8-85f6-376c1ba8b8d7",
+  "subject": "Fix MinerU pipeline: chart/figure images dropped from HTML",
+  "description": "Two bugs: (1) items_to_text() silently drops chart and figure types, (2) images use hash-based names and are never copied to HTML output directory.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_09f860c4affe7U5S6oqIZwcfjK"
+}

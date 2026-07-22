@@ -1,0 +1,10 @@
+{
+  "id": "T-d926c0b0-ec26-44a3-a9d1-ed70604404bd",
+  "subject": "F8: Validador post-generación",
+  "description": "Crear validator.py con validate_html() usando BeautifulSoup. Checks: trazabilidad, heading count, list well-formedness, nesting depth, empty elements, duplicate headings, orphan text, image references. Generar reporte JSON.",
+  "status": "completed",
+  "activeForm": "Implementing HTML validator",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

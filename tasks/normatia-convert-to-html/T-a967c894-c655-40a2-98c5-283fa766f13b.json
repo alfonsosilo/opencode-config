@@ -1,0 +1,9 @@
+{
+  "id": "T-a967c894-c655-40a2-98c5-283fa766f13b",
+  "subject": "Fase 1: Crear módulo converter/mineru/",
+  "description": "Crear el paquete Python converter/mineru/ con process_pdf_to_html_mineru() y todos los submódulos adaptados del pipeline alternativo",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0a536dc8cffezEAR8YE7R9Pcls"
+}

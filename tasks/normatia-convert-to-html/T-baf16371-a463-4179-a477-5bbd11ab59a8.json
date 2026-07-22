@@ -1,0 +1,12 @@
+{
+  "id": "T-baf16371-a463-4179-a477-5bbd11ab59a8",
+  "subject": "A.2 — scripts/extract_and_resolve_refs.py (LLM function calling)",
+  "description": "Create scripts/extract_and_resolve_refs.py: LLM function calling to extract AND resolve references in one pass. 3 tools (search_internal_blocks, search_external_documents, search_external_blocks). Uses converter/llm router. Concurrency between blocks. Anti-hallucination validation. Single-pass content_html rewriting with get_search_regex. block_references INSERT with UNIQUE dedup.",
+  "status": "completed",
+  "activeForm": "Creating extract_and_resolve_refs.py",
+  "blocks": [],
+  "blockedBy": [
+    "T-fa101046-b305-41a2-b19c-830a5062fda6"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

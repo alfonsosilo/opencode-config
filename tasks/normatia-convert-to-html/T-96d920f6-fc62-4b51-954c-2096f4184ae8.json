@@ -1,0 +1,11 @@
+{
+  "id": "T-96d920f6-fc62-4b51-954c-2096f4184ae8",
+  "subject": "Add deduplication to merge_content_lists()",
+  "description": "Modify merge_content_lists() in converter/mineru/__init__.py to detect and skip duplicate pages at fragment boundaries. The first page of each fragment (except the first) is the overlap page from the previous fragment's last page.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-983ecd60-0be6-4d25-8a20-b8e941818943"
+  ],
+  "threadID": "ses_09b9dae99ffeWNeR6R39yWtTXQ"
+}

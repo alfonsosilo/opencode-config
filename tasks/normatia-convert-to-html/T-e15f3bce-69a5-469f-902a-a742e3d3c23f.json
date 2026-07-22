@@ -1,0 +1,10 @@
+{
+  "id": "T-e15f3bce-69a5-469f-902a-a742e3d3c23f",
+  "subject": "A.5 — scripts/sync_dev_to_prod.py",
+  "description": "New script: sync dev→prod Supabase. Upsert by deterministic UUID (uuid5): documents → sections → blocks → block_references → corrections. Does NOT sync block_validations or sync_log. Flags: --document-id, --all, --dry-run. Pre-check: warn if collection_id missing in prod. Register in sync_log (dev).",
+  "status": "completed",
+  "activeForm": "Creating sync_dev_to_prod.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

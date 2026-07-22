@@ -1,0 +1,9 @@
+{
+  "id": "T-983ecd60-0be6-4d25-8a20-b8e941818143",
+  "subject": "Fix MinerU merge deduplication + no-overlap default",
+  "description": "1. Add dedup to merge_content_lists() to skip overlapping pages at fragment boundaries\n2. Ensure --no-overlap is default for MinerU workflow in visor/server.js",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_09b9dae99ffeWNeR6R39yWtTXQ"
+}

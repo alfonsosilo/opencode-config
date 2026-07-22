@@ -1,0 +1,10 @@
+{
+  "id": "T-253e1e0d-724c-4679-8db6-cb5dadb30650",
+  "subject": "Añadir deduplicate_fragments() a join_html.py",
+  "description": "Implementar función de deduplicación determinista que detecta y elimina solapes en límites entre fragmentos HTML consecutivos usando matching por texto de headings (todos los niveles h2-h6), con verificación de secuencia (2+ headings consecutivos).",
+  "status": "completed",
+  "activeForm": "Implementando deduplicate_fragments()",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_144395e80ffellcG1743cZT5Mw"
+}

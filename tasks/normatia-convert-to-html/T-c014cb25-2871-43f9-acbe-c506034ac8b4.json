@@ -1,0 +1,12 @@
+{
+  "id": "T-c014cb25-2871-43f9-acbe-c506034ac8b4",
+  "subject": "Verificar deduplicación con HTMLs reales",
+  "description": "Extraer fragmentos del output-join.html existente, ejecutar el dedup, y verificar que artículos como CAPÍTULO II/Artículo 14-16 no aparecen duplicados.",
+  "status": "completed",
+  "activeForm": "Verificando deduplicación",
+  "blocks": [],
+  "blockedBy": [
+    "T-c75d071b-4fc7-428a-b16d-20bd6d3a90b2"
+  ],
+  "threadID": "ses_144395e80ffellcG1743cZT5Mw"
+}

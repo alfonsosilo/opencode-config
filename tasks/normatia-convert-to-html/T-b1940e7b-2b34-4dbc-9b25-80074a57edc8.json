@@ -1,0 +1,10 @@
+{
+  "id": "T-b1940e7b-2b34-4dbc-9b25-80074a57edc8",
+  "subject": "Corregir bug fallback_used en __init__.py",
+  "description": "Arreglar detección de fallback_used que con grok-4.3 siempre daría True",
+  "status": "completed",
+  "activeForm": "Corrigiendo bug fallback_used",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1106ea7dbffeX4RRcpg2lCBQfw"
+}

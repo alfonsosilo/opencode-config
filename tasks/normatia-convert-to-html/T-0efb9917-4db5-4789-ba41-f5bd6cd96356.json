@@ -1,0 +1,10 @@
+{
+  "id": "T-0efb9917-4db5-4789-ba41-f5bd6cd96356",
+  "subject": "Add 4 info icons to conversor.js",
+  "description": "Add info-icon spans to Pipeline h3, Toggles h3, Advanced Split summary, and Metadata h3 with data-tooltip attributes for CSS-only tooltips.",
+  "status": "completed",
+  "activeForm": "Adding 4 info icons to conversor.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dd950d86ffdDH6YkeJnp5EatK"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-f9eae1cb-7f2d-45fa-a000-72e08fd91a90",
+  "subject": "Implement fix_broken_paragraphs() and enhance fix_broken_lists()",
+  "description": "Add fix_broken_paragraphs() to rules.py, enhance fix_broken_lists() with empty <p> skipping and _detect_flattened_lists(), integrate both into fix.py.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba5a8ab4ffdG6b8GEX7G2vWNC"
+}

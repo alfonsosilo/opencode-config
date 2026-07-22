@@ -1,0 +1,9 @@
+{
+  "id": "T-cd113357-4a06-4dbb-9116-1a8d416af999",
+  "subject": "Ajustes visor MinerU: effort=high y selector method",
+  "description": "Cambiar effort default a high, añadir selector de método (normal/ocr) en opciones MinerU",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0a536dc8cffezEAR8YE7R9Pcls"
+}

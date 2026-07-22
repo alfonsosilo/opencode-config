@@ -1,0 +1,10 @@
+{
+  "id": "T-3bcdf42f-a108-43e8-9e9c-93657f9e396d",
+  "subject": "Add make to-json target to Makefile",
+  "description": "Add to-json target to Makefile for easy integration",
+  "status": "completed",
+  "activeForm": "Adding Makefile target",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_134818c6bffetC6WHCIsEXWGBw"
+}

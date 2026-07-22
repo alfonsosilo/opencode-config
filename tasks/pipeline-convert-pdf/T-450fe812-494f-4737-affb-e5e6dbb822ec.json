@@ -1,0 +1,10 @@
+{
+  "id": "T-450fe812-494f-4737-affb-e5e6dbb822ec",
+  "subject": "Fase 1.5: Validar Fase 1 end-to-end",
+  "description": "python -m pdf_pipeline convert funciona, postprocesado OK, lsp_diagnostics limpio, gate verificado",
+  "status": "completed",
+  "activeForm": "Validando Fase 1",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

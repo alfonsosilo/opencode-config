@@ -1,0 +1,10 @@
+{
+  "id": "T-07becf49-f5cd-4fcb-80b0-1069b3bf19d3",
+  "subject": "Add tab styles to styles.css",
+  "description": "Add .tabs/.tab/.tab-panel rules to existing styles.css without breaking revisor styles",
+  "status": "completed",
+  "activeForm": "Adding tab styles to styles.css",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de5c0854ffeN3R782wVu2MpJX"
+}

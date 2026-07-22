@@ -1,0 +1,9 @@
+{
+  "id": "T-3839ade0-e416-4826-b7fb-75fd5facbc2b",
+  "subject": "QW.3 — Mejorar _extract_context() en engine.py + prompt",
+  "description": "Enriquecer sliding context: trackear list_nesting_level, ultimo_li, parrafo_abierto, ultimo_texto. Actualizar inyección del placeholder {CONTEXTO_ANTERIOR} en prompts.py",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

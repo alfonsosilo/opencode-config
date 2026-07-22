@@ -1,0 +1,10 @@
+{
+  "id": "T-a2f8523a-04bd-4c89-9ccf-77acccc5a773",
+  "subject": "Fase 3.1: Añadir --timeout a subcomandos convert y batch",
+  "description": "Override del timeout desde CLI para docs de hasta 1000 páginas",
+  "status": "completed",
+  "activeForm": "Añadiendo flag --timeout al CLI",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-3a2cc30d-8da5-43e2-83db-de0a0145e88e",
+  "subject": "Fase 2: Crear script CLI scripts/mineru_convert.py",
+  "description": "Crear el script CLI que el visor (server.js) llamará via uv run para ejecutar el pipeline MinerU",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0a536dc8cffezEAR8YE7R9Pcls"
+}

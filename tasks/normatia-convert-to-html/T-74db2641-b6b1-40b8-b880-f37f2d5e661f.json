@@ -1,0 +1,10 @@
+{
+  "id": "T-74db2641-b6b1-40b8-b880-f37f2d5e661f",
+  "subject": "Fix metadata key mapping in conversor.js + server.js (7 changes)",
+  "description": "A) buildMetadata() camelCase→snake_case B) collection-slug required C) collection_slug validation D) upload with slug name E) normalizeMetadata pass-through F) multer custom name G) server-side validation",
+  "status": "completed",
+  "activeForm": "Fixing metadata key mapping in conversor.js and server.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de35b6deffehBO8Eoh39luqy4"
+}

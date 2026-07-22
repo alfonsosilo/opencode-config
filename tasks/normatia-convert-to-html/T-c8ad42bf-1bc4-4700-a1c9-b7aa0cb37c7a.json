@@ -1,0 +1,10 @@
+{
+  "id": "T-c8ad42bf-1bc4-4700-a1c9-b7aa0cb37c7a",
+  "subject": "A.6 — Golden set calibration (eval/)",
+  "description": "Create eval/refs_golden.json (golden set of 30-50 hand-labeled references) and eval/measure_refs.py (precision/recall measurement script against block_references table). Template structure ready for hand-labeling on ley-montes or representative doc.",
+  "status": "completed",
+  "activeForm": "Creating golden set and eval script",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-847c32d1-f9b2-4470-9f91-6ecf049d1244",
+  "subject": "Fase 3: Frontend conversor.js — selector de método",
+  "description": "Añadir selector method (original vs MinerU) con opciones dinámicas, modificar runConversion() y connectSSE()",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0a536dc8cffezEAR8YE7R9Pcls"
+}

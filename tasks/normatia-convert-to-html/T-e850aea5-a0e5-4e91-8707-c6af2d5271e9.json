@@ -1,0 +1,10 @@
+{
+  "id": "T-e850aea5-a0e5-4e91-8707-c6af2d5271e9",
+  "subject": "Create visor/public/subida.css",
+  "description": "New file: styles for Subida tab. Container layout, doc selector row, DEF_MODE radios, status badge, next-steps block, responsive. Reuse .progress-panel/.result-panel/.btn-convert/.error-message from conversor.css.",
+  "status": "completed",
+  "activeForm": "Creating subida.css",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dda3e956ffeSjNThz3ZVreJuU"
+}

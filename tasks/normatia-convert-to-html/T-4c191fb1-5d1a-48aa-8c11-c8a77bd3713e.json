@@ -1,0 +1,10 @@
+{
+  "id": "T-4c191fb1-5d1a-48aa-8c11-c8a77bd3713e",
+  "subject": "Add --input-dir --output-file CLI args to join.py",
+  "description": "scripts/join.py: replace hardcoded INPUT_DIR/OUTPUT_FILE with argparse",
+  "status": "completed",
+  "activeForm": "Adding CLI args to join.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1305d8dbaffeqVlNtx1ArLrHIg"
+}

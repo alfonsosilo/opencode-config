@@ -1,0 +1,12 @@
+{
+  "id": "T-bb4f8c22-90c1-42ae-b833-f5b00c6b0762",
+  "subject": "A.3 — Adapt add_term_links scripts to dev DB",
+  "description": "Adapt scripts/add_term_links_cte.py and scripts/add_term_links_no_cte.py to read/write from dev Supabase instead of JSON files. Same logic but operating on blocks table. Append to term_references (don't overwrite).",
+  "status": "completed",
+  "activeForm": "Adapting term link scripts to dev DB",
+  "blocks": [],
+  "blockedBy": [
+    "T-fa101046-b305-41a2-b19c-830a5062fda6"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

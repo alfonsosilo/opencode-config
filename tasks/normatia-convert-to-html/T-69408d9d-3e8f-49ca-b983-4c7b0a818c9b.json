@@ -1,0 +1,10 @@
+{
+  "id": "T-69408d9d-3e8f-49ca-b983-4c7b0a818c9b",
+  "subject": "Fase 1: Setup y dependencias del visor v2",
+  "description": "Añadir visor/node_modules/ a .gitignore, instalar @supabase/supabase-js y dotenv, actualizar package.json",
+  "status": "completed",
+  "activeForm": "Setting up visor v2 dependencies",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_106e0c5e2ffeMjyZTlNecd59dq"
+}

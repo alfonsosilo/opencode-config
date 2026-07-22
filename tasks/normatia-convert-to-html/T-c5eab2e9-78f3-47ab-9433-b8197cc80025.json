@@ -1,0 +1,10 @@
+{
+  "id": "T-c5eab2e9-78f3-47ab-9433-b8197cc80025",
+  "subject": "F5: Enrutamiento de contenido especial",
+  "description": "Crear router.py con route_item() para clasificar tablas (direct vs LLM), imagenes/figuras (direct <figure>), ecuaciones, codigo. Validar HTML de tablas de MinerU.",
+  "status": "completed",
+  "activeForm": "Implementing content router",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-655205f3-c0ad-47d7-a011-8574779ca4ce",
+  "subject": "Create app.js tab router",
+  "description": "ES module tab router: imports conversor + revisor, lazy init on first visit, default conversor tab",
+  "status": "completed",
+  "activeForm": "Creating app.js router",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4efd85ffeDoWUmKsxKmPJLw"
+}

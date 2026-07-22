@@ -1,0 +1,10 @@
+{
+  "id": "T-5f349bca-8f6d-4a0b-b6ed-a4bf016f4a0b",
+  "subject": "Create eval/refs_golden.json and eval/measure_refs.py",
+  "description": "Create golden set template (10 realistic Spanish normativa refs) and measurement script with precision/recall/F1, threshold sweep, and missed/wrong resolution reporting",
+  "status": "completed",
+  "activeForm": "Creating eval files",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1209552fbffe30r7ZJ9sW16XKB"
+}

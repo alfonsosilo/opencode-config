@@ -1,0 +1,10 @@
+{
+  "id": "T-d74757bb-bc7d-4f57-986b-8b14b25e6fdd",
+  "subject": "Migrate extract_and_resolve_refs.py from direct Gemini to LiteLLM Router",
+  "description": "Replace direct litellm.completion() with router.completion() using pre-configured LiteLLM Router from converter.llm.config",
+  "status": "completed",
+  "activeForm": "migrating LLM calls to LiteLLM Router",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_110661aaeffeCBVL1Tiedx68Wm"
+}

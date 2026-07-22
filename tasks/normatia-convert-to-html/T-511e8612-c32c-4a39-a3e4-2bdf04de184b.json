@@ -1,0 +1,10 @@
+{
+  "id": "T-511e8612-c32c-4a39-a3e4-2bdf04de184b",
+  "subject": "Frontend: Refactor visor into tabs + create Conversor tab",
+  "description": "Refactor index.html with tabs layout. Create app.js router. Move app.js→revisor.js, styles.css→revisor.css. Create base styles.css, conversor.css, conversor.js with full UI (dropzone, pipeline selector, metadata form, SSE progress, result panel)",
+  "status": "completed",
+  "activeForm": "Building tab-based visor with Conversor a HTML tab",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de52a3e0ffe4fnytVpzbNCu5E"
+}

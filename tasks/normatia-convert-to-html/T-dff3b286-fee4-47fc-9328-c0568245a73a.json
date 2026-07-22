@@ -1,0 +1,9 @@
+{
+  "id": "T-dff3b286-fee4-47fc-9328-c0568245a73a",
+  "subject": "Switch MinerU default backend to pipeline + add UI selector",
+  "description": "Change default backend from hybrid-engine to pipeline in MineruConfig. Add backend selector in visor UI. Update CLI, server, and Makefile.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_09f860c4affe7U5S6oqIZwcfjK"
+}

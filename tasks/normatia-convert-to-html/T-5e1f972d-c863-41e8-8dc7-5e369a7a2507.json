@@ -1,0 +1,10 @@
+{
+  "id": "T-5e1f972d-c863-41e8-8dc7-5e369a7a2507",
+  "subject": "Migrar config.py a Azure AI (grok-4.3 + DeepSeek-V4-Pro)",
+  "description": "Cambiar converter/llm/config.py: reemplazar Gemini/OpenRouter por Azure AI con grok-4.3 primario y DeepSeek-V4-Pro fallback texto",
+  "status": "completed",
+  "activeForm": "Migrando config.py a Azure AI",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1106ea7dbffeX4RRcpg2lCBQfw"
+}

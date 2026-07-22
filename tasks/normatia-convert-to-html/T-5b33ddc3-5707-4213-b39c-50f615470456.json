@@ -1,0 +1,12 @@
+{
+  "id": "T-5b33ddc3-5707-4213-b39c-50f615470456",
+  "subject": "Verify import and functionality after refactoring",
+  "description": "Run import tests for converter/rules.py and scripts/fix.py. Run lsp_diagnostics on both files. Verify that the refactored code produces identical output to the original.",
+  "status": "completed",
+  "activeForm": "Verifying refactoring correctness",
+  "blocks": [],
+  "blockedBy": [
+    "T-e99f8b7c-f73e-49a9-9917-d38db4101976"
+  ],
+  "threadID": "ses_111687a2fffe0TthnxK2ozfSDb"
+}

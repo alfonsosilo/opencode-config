@@ -1,0 +1,9 @@
+{
+  "id": "T-12c98aba-3477-4ef5-bc81-bdfeb326eb1b",
+  "subject": "Añadir constante TAGS y función buildMultiSelectGroup en conversor.js",
+  "description": "Añadir array TAGS con las 10 opciones, función buildMultiSelectGroup(), y reemplazar buildTextGroup en línea 517",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_07c996dfbffeYPKuspZPuw4Qqv"
+}

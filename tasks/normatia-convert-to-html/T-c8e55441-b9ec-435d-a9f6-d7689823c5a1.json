@@ -1,0 +1,10 @@
+{
+  "id": "T-c8e55441-b9ec-435d-a9f6-d7689823c5a1",
+  "subject": "Add --pages-dir flag to convert.py",
+  "description": "scripts/convert.py: add --pages-dir CLI arg and pass to process_pdf_to_html()",
+  "status": "completed",
+  "activeForm": "Adding --pages-dir to convert.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1305d8dbaffeqVlNtx1ArLrHIg"
+}

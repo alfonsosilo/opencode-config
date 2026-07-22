@@ -1,0 +1,10 @@
+{
+  "id": "T-28940c31-dbb2-4be7-a730-649545bae58f",
+  "subject": "Refactor converter/engine.py",
+  "description": "Remove Gemini-specific imports and code, replace with generate_with_fallback() call",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-b7fefc9d-8b0a-49dc-be86-15ff75ee50bb",
+  "threadID": "ses_135a47123ffeZSU9HKABcEd1hG"
+}

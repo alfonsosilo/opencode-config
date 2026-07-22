@@ -1,0 +1,10 @@
+{
+  "id": "T-7b18269e-4427-4b71-94fc-f7580fdf96c8",
+  "subject": "Rewrite app.js as tab router",
+  "description": "Replace app.js with import statements + tab switcher logic. Lazy-init each tab on first activation.",
+  "status": "completed",
+  "activeForm": "Rewriting app.js as tab router",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de5c0854ffeN3R782wVu2MpJX"
+}

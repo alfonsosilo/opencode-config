@@ -1,0 +1,10 @@
+{
+  "id": "T-da48c69a-be92-432c-be04-e965311d0112",
+  "subject": "Add --output-file arg to scripts/convert_to_json.py",
+  "description": "Add optional --output-file argument. When provided, use that exact filename instead of {collection_slug}.json.",
+  "status": "in_progress",
+  "activeForm": "Adding --output-file to convert_to_json.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_13087fad1ffeiuR3jsIktk9NMF"
+}

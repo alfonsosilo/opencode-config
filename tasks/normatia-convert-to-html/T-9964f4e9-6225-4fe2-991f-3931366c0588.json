@@ -1,0 +1,10 @@
+{
+  "id": "T-9964f4e9-6225-4fe2-991f-3931366c0588",
+  "subject": "Modify visor/public/conversor.js result button",
+  "description": "Modify \"Subir a Base de Datos\" button click handler to derive docName from serverFilename (strip .pdf), switch tab, then dispatch subida:select CustomEvent. Need to track serverFilename in module-local state.",
+  "status": "completed",
+  "activeForm": "Modifying conversor.js result button",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dda3e956ffeSjNThz3ZVreJuU"
+}

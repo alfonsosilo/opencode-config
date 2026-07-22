@@ -1,0 +1,10 @@
+{
+  "id": "T-0b96a743-d104-4144-9813-fef175f06cc6",
+  "subject": "Corregir bug en postprocess.py",
+  "description": "Reescribir relativize_image_paths: path absoluto dentro de md_parent no se relativizaba. Usar os.path.relpath. Test con fixture mock.",
+  "status": "completed",
+  "activeForm": "Corrigiendo postprocess.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

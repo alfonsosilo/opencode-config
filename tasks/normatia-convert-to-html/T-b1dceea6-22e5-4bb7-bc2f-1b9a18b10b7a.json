@@ -1,0 +1,10 @@
+{
+  "id": "T-b1dceea6-22e5-4bb7-bc2f-1b9a18b10b7a",
+  "subject": "Wire initSubida in visor/public/app.js",
+  "description": "Add import { initSubida } from './subida.js'. Change tabs.subida.init from null to initSubida.",
+  "status": "completed",
+  "activeForm": "Wiring initSubida in app.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dda3e956ffeSjNThz3ZVreJuU"
+}

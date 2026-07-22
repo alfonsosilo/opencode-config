@@ -1,0 +1,10 @@
+{
+  "id": "T-f9fcf959-f26b-403a-a16c-90a07419504e",
+  "subject": "Create 4 test files for Phase 5 pipeline modules",
+  "description": "Create preprocessor_test.py, compact_repr_test.py, chunker_test.py, azure_client_test.py with mock-based pytest tests",
+  "status": "completed",
+  "activeForm": "Creating Phase 5 test files",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b732ee4bffei3g0CEfoH9jxl6"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T-e99f8b7c-f73e-49a9-9917-d38db4101976",
+  "subject": "Refactor scripts/fix.py to import from converter/rules.py",
+  "description": "Replace all extracted function bodies in scripts/fix.py with imports from converter.rules. Keep fix_html(), main(), and the import path manipulation. Update all call sites to use public (non-underscore) names.",
+  "status": "completed",
+  "activeForm": "Refactoring scripts/fix.py",
+  "blocks": [],
+  "blockedBy": [
+    "T-c88581e3-68a7-4504-806e-83476dee1586"
+  ],
+  "threadID": "ses_111687a2fffe0TthnxK2ozfSDb"
+}

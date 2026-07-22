@@ -1,0 +1,9 @@
+{
+  "id": "T-ebabec5e-6aac-4871-96b1-550aa6b74034",
+  "subject": "QW.1 — Subir DPI de rasterización (100 → 200)",
+  "description": "Cambiar dpi=100 a dpi=200 en converter/engine.py para mejorar detección de sublistas",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

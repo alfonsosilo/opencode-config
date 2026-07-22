@@ -1,0 +1,9 @@
+{
+  "id": "T-eb10de4f-10ab-4ab0-aeef-1f7b8292069d",
+  "subject": "Add \"Buscador documento\" feature to FastHTML dashboard",
+  "description": "1. Add sidebar nav CSS, 2. Add nav items to render_sidebar, 3. Add search_documents() DB query, 4. Add /search and /search-results routes, 5. Add id=\"main-content\" to main div",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_16958e461ffeEg5e0rfsKpR87x"
+}

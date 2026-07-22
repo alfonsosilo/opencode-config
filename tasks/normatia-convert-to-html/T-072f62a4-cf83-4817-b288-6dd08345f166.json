@@ -1,0 +1,12 @@
+{
+  "id": "T-072f62a4-cf83-4817-b288-6dd08345f166",
+  "subject": "B.3 — scripts/repair.py (reparación quirúrgica)",
+  "description": "Create scripts/repair.py: when autofix/completeness marks anomaly → locate pages by PAGINA_X marker → crop full page → send HTML fragment + page images + surgical prompt → splice back. Reuse generate_with_fallback. Rollback with rules.run_all_validations. Register in corrections table.",
+  "status": "pending",
+  "activeForm": "Creating repair.py surgical script",
+  "blocks": [],
+  "blockedBy": [
+    "T-95c7d85d-481d-4b1a-91c3-28944ab504c2"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

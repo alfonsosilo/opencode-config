@@ -1,0 +1,11 @@
+{
+  "id": "T-84265022-538f-44f9-a7bb-da53270818ca",
+  "subject": "Install recharts and create data types",
+  "description": "npm install recharts + create src/components/benchmark/BenchmarkData.ts with TypeScript types and mock data for all AI models tested",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-43e93b1b-05d1-454b-a7b3-131dd0fbdd1c"
+  ],
+  "threadID": "ses_17868fd7afferlWLyq8C1tz2Cq"
+}

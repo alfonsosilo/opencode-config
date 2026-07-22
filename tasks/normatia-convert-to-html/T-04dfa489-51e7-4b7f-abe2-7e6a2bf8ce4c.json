@@ -1,0 +1,10 @@
+{
+  "id": "T-04dfa489-51e7-4b7f-abe2-7e6a2bf8ce4c",
+  "subject": "Update README.md for Azure AI migration",
+  "description": "Replace all Gemini/OpenRouter references with Azure AI (grok-4.3 + DeepSeek-V4-Pro)",
+  "status": "completed",
+  "activeForm": "Updating README.md",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_11065af6effeHBstgCKUw1ILYN"
+}

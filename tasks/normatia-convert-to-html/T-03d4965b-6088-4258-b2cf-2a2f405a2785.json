@@ -1,0 +1,9 @@
+{
+  "id": "T-03d4965b-6088-4258-b2cf-2a2f405a2785",
+  "subject": "QW.4 — Mejorar fix_broken_lists() en rules.py",
+  "description": "Mejorar fix_broken_lists para: (1) fusionar listas separadas por p errante, (2) detectar p secuenciales con marcadores y convertirlos a ol/ul (_detect_flattened_lists)",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

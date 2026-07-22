@@ -1,0 +1,9 @@
+{
+  "id": "T-a2573d50-d4a5-45aa-8d8f-a94cb098d498",
+  "subject": "NC.7 — Otras detecciones en structure.py",
+  "description": "Implementar detect_definitions(), extract_figures(), detect_blockquotes(), fix_reading_order(), filter_headers_footers() en structure.py",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

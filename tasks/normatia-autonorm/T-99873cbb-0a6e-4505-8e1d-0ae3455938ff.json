@@ -1,0 +1,10 @@
+{
+  "id": "T-99873cbb-0a6e-4505-8e1d-0ae3455938ff",
+  "subject": "Generate content_html and title_html in mapper.py",
+  "description": "Add markdown-it-py conversion to generate content_html from content_markdown and title_html from title_markdown in the Block constructor",
+  "status": "completed",
+  "activeForm": "Generating HTML fields in mapper",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_14fc3fe1cffewa0pbQivShw98w"
+}

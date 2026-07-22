@@ -1,0 +1,9 @@
+{
+  "id": "T-22ae5dd3-04a8-4270-87f5-24f16c48c8bf",
+  "subject": "Batch 1: Fase 1 — Añadir parent_id + version a convert_to_json.py",
+  "description": "Añadir campos parent_id (collection_slug) y version (document_slug) al JSON raíz de salida. Añadir validación si faltan.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

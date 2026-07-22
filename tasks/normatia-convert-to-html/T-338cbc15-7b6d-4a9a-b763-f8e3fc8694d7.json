@@ -1,0 +1,10 @@
+{
+  "id": "T-338cbc15-7b6d-4a9a-b763-f8e3fc8694d7",
+  "subject": "Adapt app.py dashboard to per-doc output structure",
+  "description": "app.py: update internal paths to use output/{doc_name}/html/, pages/, etc.",
+  "status": "completed",
+  "activeForm": "Adapting dashboard paths",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1305d8dbaffeqVlNtx1ArLrHIg"
+}

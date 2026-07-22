@@ -1,0 +1,9 @@
+{
+  "id": "T-28e51eea-df21-4ea3-bfa9-9deadff3784d",
+  "subject": "Add PDF conversion pipeline API endpoints to visor/server.js",
+  "description": "Install multer, add 4 new endpoints (POST /api/convert/upload, POST /api/convert/run, GET /api/convert/status/:runId (SSE), GET /api/convert/result/:runId), with in-memory run buffer and auto-cleanup.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de500cf0ffe3drufyHw1lAshq"
+}

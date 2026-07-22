@@ -1,0 +1,11 @@
+{
+  "id": "T-314ba1ab-d209-459d-b612-e103692dbbfd",
+  "subject": "Map image hashes to friendly names and copy to html/images/",
+  "description": "In __init__.py process_pdf_to_html_mineru(), build a hash→friendly-name mapping for all images, update CompactItem image_paths to friendly names before items_to_text(), and copy images to html/images/ after assembly.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-6050b451-8dac-49e8-85f6-376c1ba8b8d7"
+  ],
+  "threadID": "ses_09f860c4affe7U5S6oqIZwcfjK"
+}

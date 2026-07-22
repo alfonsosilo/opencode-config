@@ -1,0 +1,10 @@
+{
+  "id": "T-d3b221e4-0fa8-443d-8ca2-6c03cb6befc2",
+  "subject": "Create new styles.css base",
+  "description": "New base CSS: variables, reset, body, header, tabs, status-bar, btn, form elements",
+  "status": "completed",
+  "activeForm": "Creating styles.css",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de4efd85ffeDoWUmKsxKmPJLw"
+}

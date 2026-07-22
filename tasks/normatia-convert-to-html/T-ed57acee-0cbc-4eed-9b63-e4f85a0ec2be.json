@@ -1,0 +1,9 @@
+{
+  "id": "T-ed57acee-0cbc-4eed-9b63-e4f85a0ec2be",
+  "subject": "Implementar pestaña Conversor a HTML en visor",
+  "description": "Implementar el plan en .omo/plans/visor-conversor-html.md: backend endpoints, cambio en join.py, y frontend completo",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de67fecdffepIgKRZUbJMuXRq"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "T-cdf347c8-786f-467a-bd2a-f455688db6aa",
+  "subject": "Fase 2: Actualizar verify.py y probar HTML pipeline",
+  "description": "Unificar verify.py con generate_html(), probar make all en un PDF de test",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-b27575c6-985f-4a8d-b99f-5c66f3ce3b99"
+  ],
+  "threadID": "ses_0e333891fffe1BmqRcHBfguRH6"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T-e6b478cf-39b2-4754-9ec5-813886f08c2e",
+  "subject": "Create BenchmarkPage React component",
+  "description": "Create src/components/benchmark/BenchmarkPage.tsx — main React component with: hero section (navy bg + podium), stats overview, Recharts bar chart, leaderboard table, methodology section. Must follow existing design system patterns.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-43e93b1b-05d1-454b-a7b3-131dd0fbdd1c",
+    "T"
+  ],
+  "threadID": "ses_17868fd7afferlWLyq8C1tz2Cq"
+}

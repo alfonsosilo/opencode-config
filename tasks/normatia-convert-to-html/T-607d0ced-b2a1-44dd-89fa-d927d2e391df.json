@@ -1,0 +1,11 @@
+{
+  "id": "T-607d0ced-b2a1-44dd-89fa-d927d2e391df",
+  "subject": "Add chart/figure handling to items_to_text()",
+  "description": "In compact_repr.py items_to_text(), add 'chart' and 'figure' to the image handling elif branch so they produce [image|figure] markers instead of being silently dropped.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-6050b451-8dac-49e8-85f6-376c1ba8b8d7"
+  ],
+  "threadID": "ses_09f860c4affe7U5S6oqIZwcfjK"
+}

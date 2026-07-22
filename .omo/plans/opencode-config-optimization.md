@@ -572,7 +572,7 @@ Wave FINAL (Despues de todo — revision):
 
 ---
 
-- [ ] 6. Smoke test final + comparacion de tokens
+- [x] 6. Smoke test final + comparacion de tokens
 
   **What to do**:
   - Ejecutar smoke test completo con los 3 agentes principales:
@@ -675,11 +675,11 @@ Wave FINAL (Despues de todo — revision):
 
 > 2 review agents run in SEQUENCE. ALL must APPROVE.
 
-- [ ] F1. **Plan Compliance Audit** — `oracle`
+- [x] F1. **Plan Compliance Audit** — `oracle`
   Read the plan end-to-end. For each "Must Have": verify implementation exists (read file, curl endpoint, run command). For each "Must NOT Have": search config for forbidden patterns — reject with file:line if found. Check evidence files exist. Compare deliverables against plan.
   Output: `Must Have [N/N] | Must NOT Have [N/N] | Tasks [N/N] | VERDICT: APPROVE/REJECT`
 
-- [ ] F2. **Validacion Final** — `unspecified-high`
+- [x] F2. **Validacion Final** — `unspecified-high`
   Verificar que todos los cambios estan aplicados:
   - `opencode.jsonc` tiene ambos plugins en orden correcto
   - `oh-my-openagent.json` tiene textVerbosity, experimental settings
@@ -700,13 +700,41 @@ Wave FINAL (Despues de todo — revision):
 
 ---
 
+## Post-Optimization: Additional Improvements
+
+- [x] 7. **Crear agentes custom en `.opencode/agent/`**
+  - security-reviewer.md: Revisor de seguridad especializado (modelo deepseek-v4-pro, solo lectura)
+  - test-generator.md: Generador de tests automatizados (modelo deepseek-v4-flash, permisos de edición limitados)
+  - docs-writer.md: Escritor técnico para documentación de APIs y componentes (modelo kimi-k2.6)
+  - Ubicación: `~/.config/opencode/agents/` (global — funcionan en cualquier proyecto)
+  - Los agentes se invocan con `@security-reviewer`, `@test-generator`, `@docs-writer` en cualquier sesión
+
+- [x] 8. **Documentar `/init-deep` para proyectos existentes**
+- [x] 9. **Añadir prompt_append a agentes clave**
+  - oracle: estructura de análisis, validación de supuestos, soluciones con tradeoffs
+  - prometheus: estructura de planes (Contexto, Objetivos, Estrategia, etc.)
+  - atlas: leer plan completo, desglosar, delegar con prompts claros, verificar
+  - librarian: priorizar docs oficiales, findings accionables, no adivinar
+  - explore: ser exhaustivo, múltiples ángulos, reportar con contexto
+- [x] 10. **Registrar agentes custom en oh-my-openagent.json**
+  - Añadidos `security-reviewer`, `test-generator`, `docs-writer` a la sección `agents`
+  - Cada uno con model, textVerbosity, permission y prompt_append
+  - Sisyphus ahora puede delegarles tareas vía `task(subagent_type="security-reviewer", ...)`
+  - Comando disponible vía oh-my-openagent: genera AGENTS.md jerárquicos
+  - Uso: ejecutar `/init-deep` desde la raíz de cualquier proyecto con código
+  - Documentado en la guía de optimización
+
+---
+
 ## Success Criteria
 
 ### Final Checklist
-- [ ] Plugin caveman instalado y funcionando (nivel lite, siempre activo)
-- [ ] textVerbosity configurado en todos los agentes aplicables
-- [ ] aggressive_truncation y task_system activados
-- [ ] Config duplicada ~/.opencode/opencode.json limpiada
-- [ ] Reduccion de tokens >= 30% en sisyphus, >= 15% en oracle
-- [ ] Git tracking activo con todos los cambios commiteados
-- [ ] Backup disponible para rollback si es necesario
+- [x] Plugin caveman instalado y funcionando (nivel lite, siempre activo)
+- [x] textVerbosity configurado en todos los agentes aplicables
+- [x] aggressive_truncation y task_system activados
+- [x] Config duplicada ~/.opencode/opencode.json limpiada
+- [x] Reduccion de tokens >= 30% en sisyphus, >= 15% en oracle
+- [x] Git tracking activo con todos los cambios commiteados
+- [x] Backup disponible para rollback si es necesario
+- [x] Agentes custom creados en ~/.opencode/agent/
+- [ ] init-deep ejecutado en proyecto (pendiente de proyecto destino)

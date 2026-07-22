@@ -1,0 +1,12 @@
+{
+  "id": "T-6e56d2ff-3c5d-4e1f-999a-0755c3fc52b4",
+  "subject": "A.1 — scripts/html_to_db.py (HTML → dev Supabase)",
+  "description": "Create scripts/html_to_db.py: parse output-join.html → upsert in dev (documents, sections, blocks). Schema-robust via information_schema introspection. Multiple column aliases. Orphan cleanup. Efficient batch operations.",
+  "status": "completed",
+  "activeForm": "Creating html_to_db.py script",
+  "blocks": [],
+  "blockedBy": [
+    "T-fa101046-b305-41a2-b19c-830a5062fda6"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T-e4f9f105-5968-48af-a3d1-db4254e649d0",
+  "subject": "A.4 — scripts/review_refs.py (human review CLI)",
+  "description": "Create scripts/review_refs.py: minimal CLI to list blocks with href=\"empty\" or low data-confidence, show context_plain and ref text, allow opening $EDITOR on content_html, mark as reviewed.",
+  "status": "completed",
+  "activeForm": "Creating review_refs.py CLI",
+  "blocks": [],
+  "blockedBy": [
+    "T-fa101046-b305-41a2-b19c-830a5062fda6"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

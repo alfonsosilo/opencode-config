@@ -1,0 +1,10 @@
+{
+  "id": "T-361b1b57-5d2a-4121-92da-354e1c958d13",
+  "subject": "Decouple HTML and Refs LLM models",
+  "description": "Refactor converter/llm/config.py to have two independent routers (HTML + Refs), update __init__.py with two generate functions, and update all callers.",
+  "status": "completed",
+  "activeForm": "Decoupling LLM model configs",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1025132aaffem9IvCo1tApWo07"
+}

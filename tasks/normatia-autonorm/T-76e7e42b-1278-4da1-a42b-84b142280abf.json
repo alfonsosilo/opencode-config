@@ -1,0 +1,9 @@
+{
+  "id": "T-76e7e42b-1278-4da1-a42b-84b142280abf",
+  "subject": "Fix test failures and apply uv migration config changes",
+  "description": "1. Fix src/test_chunker.py pytest discovery issue. 2. Fix 2 test_cli_batch.py mocks missing language parameter. 3. Switch pyproject.toml from setuptools to hatchling. 4. Remove pip from README.md.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_107a81b39ffeYJIGHeOJytsOk3"
+}

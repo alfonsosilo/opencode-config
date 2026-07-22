@@ -1,0 +1,9 @@
+{
+  "id": "T-763da543-84e2-4cbd-b958-3ee7812c77fe",
+  "subject": "QW.2 — fix_broken_paragraphs() en rules.py + integración fix.py",
+  "description": "Nueva función fix_broken_paragraphs en converter/rules.py que fusiona párrafos partidos por marcadores PAGINA_X. Integrar en scripts/fix.py cadena de reglas.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

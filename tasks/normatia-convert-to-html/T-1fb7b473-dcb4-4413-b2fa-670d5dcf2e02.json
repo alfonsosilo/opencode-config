@@ -1,0 +1,11 @@
+{
+  "id": "T-1fb7b473-dcb4-4413-b2fa-670d5dcf2e02",
+  "subject": "Fase 3: Migrar Refs pipeline (extract_and_resolve_refs, reprocess_orphan_refs)",
+  "description": "Adaptar function calling loop a genai SDK en ambos scripts. Probar make all-refs.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "T-b27575c6-985f-4a8d-b99f-5c66f3ce3b99"
+  ],
+  "threadID": "ses_0e333891fffe1BmqRcHBfguRH6"
+}

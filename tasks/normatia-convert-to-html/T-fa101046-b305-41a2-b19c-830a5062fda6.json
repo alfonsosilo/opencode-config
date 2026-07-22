@@ -1,0 +1,10 @@
+{
+  "id": "T-fa101046-b305-41a2-b19c-830a5062fda6",
+  "subject": "A.0 — Infra mínima dev (db.py, html_parser.py, schema, deps, .env)",
+  "description": "Create all A.0 infrastructure:\n1. converter/db.py — lazy psycopg2 pool + supabase client\n2. converter/html_parser.py — extract parsing from convert_to_json.py\n3. infra/dev_extra_schema.sql — extra tables\n4. Update .env.example with dev/prod vars\n5. Update pyproject.toml with psycopg2-binary + supabase\n6. Refactor convert_to_json.py to thin wrapper over html_parser",
+  "status": "completed",
+  "activeForm": "Creating A.0 infrastructure files",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

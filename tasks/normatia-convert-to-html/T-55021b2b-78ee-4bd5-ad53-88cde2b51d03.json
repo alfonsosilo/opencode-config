@@ -1,0 +1,9 @@
+{
+  "id": "T-55021b2b-78ee-4bd5-ad53-88cde2b51d03",
+  "subject": "Create scripts/ CLI entry points (convert.py, join.py, split.py)",
+  "description": "Create CLI scripts that import from converter package",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_136177f6effeQZrjnJ60XJMFRv"
+}

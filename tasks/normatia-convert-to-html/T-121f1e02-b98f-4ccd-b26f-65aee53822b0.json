@@ -1,0 +1,9 @@
+{
+  "id": "T-121f1e02-b98f-4ccd-b26f-65aee53822b0",
+  "subject": "Actualizar buildMetadata() para multiselect en conversor.js",
+  "description": "Cambiar buildMetadata() línea 1558/1571 para leer checkboxes del multiselect y unirlos con join(\", \")",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_07c996dfbffeYPKuspZPuw4Qqv"
+}

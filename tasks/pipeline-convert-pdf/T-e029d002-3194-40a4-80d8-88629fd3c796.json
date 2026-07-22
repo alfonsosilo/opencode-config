@@ -1,0 +1,10 @@
+{
+  "id": "T-e029d002-3194-40a4-80d8-88629fd3c796",
+  "subject": "Fase 4: Implementar tests unitarios con mocks",
+  "description": "conftest.py + 3 archivos test, mock subprocess/IO, ningún mineru real, pytest 100% pass",
+  "status": "completed",
+  "activeForm": "Implementando tests con mocks",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

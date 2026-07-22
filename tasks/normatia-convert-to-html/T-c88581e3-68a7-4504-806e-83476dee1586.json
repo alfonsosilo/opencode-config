@@ -1,0 +1,10 @@
+{
+  "id": "T-c88581e3-68a7-4504-806e-83476dee1586",
+  "subject": "Create converter/rules.py with all extracted constants, helpers, and 11+ fix/detect functions",
+  "description": "Build the new rules.py file containing: HEADING_TAGS, HEADING_RULES, MD_PATTERNS, SENTENCE_END_RE constants; get_fragment_for_element, insert_warning, similarity, strip_text helpers; all 11 fix/detect functions (a-k) with public names; ai_classify_headings; NEW run_all_validations(soup) entry point.",
+  "status": "completed",
+  "activeForm": "Creating converter/rules.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111687a2fffe0TthnxK2ozfSDb"
+}

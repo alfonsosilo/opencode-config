@@ -1,0 +1,10 @@
+{
+  "id": "T-74fe7a75-f9cb-49c2-b417-0a06d883ba6b",
+  "subject": "Fix plain_text: concatenate title + content",
+  "description": "Add generate_plain_text helper that concatenates title_plain + \". \" + content_plain when both exist, matching JS generatePlainText. Use it in blocks upsert plain_text field.",
+  "status": "completed",
+  "activeForm": "Fixing plain_text to include title",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_14fc3fe1cffewa0pbQivShw98w"
+}

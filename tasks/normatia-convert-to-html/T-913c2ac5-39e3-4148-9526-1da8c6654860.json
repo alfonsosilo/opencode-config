@@ -1,0 +1,9 @@
+{
+  "id": "T-913c2ac5-39e3-4148-9526-1da8c6654860",
+  "subject": "Create converter/ package (config.py, engine.py, merge.py, __init__.py)",
+  "description": "Create the core converter package with separated concerns",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_136177f6effeQZrjnJ60XJMFRv"
+}

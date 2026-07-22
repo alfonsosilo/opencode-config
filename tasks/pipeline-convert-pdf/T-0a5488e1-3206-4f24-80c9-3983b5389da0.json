@@ -1,0 +1,10 @@
+{
+  "id": "T-0a5488e1-3206-4f24-80c9-3983b5389da0",
+  "subject": "Fase 0.1: Crear archivos de configuración del proyecto",
+  "description": "pyproject.toml, .gitignore, .env.example, Makefile, scripts/install.sh, scripts/download_models.sh",
+  "status": "completed",
+  "activeForm": "Creando archivos de configuración",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}

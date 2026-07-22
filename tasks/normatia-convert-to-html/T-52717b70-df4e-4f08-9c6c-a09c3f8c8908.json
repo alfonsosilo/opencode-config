@@ -1,0 +1,10 @@
+{
+  "id": "T-52717b70-df4e-4f08-9c6c-a09c3f8c8908",
+  "subject": "Convert scripts/join.py from hardcoded paths to CLI args",
+  "description": "Replace hardcoded INPUT_DIR/OUTPUT_FILE with argparse --input-dir/--output args.",
+  "status": "in_progress",
+  "activeForm": "Adding CLI args to join.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_13087fad1ffeiuR3jsIktk9NMF"
+}

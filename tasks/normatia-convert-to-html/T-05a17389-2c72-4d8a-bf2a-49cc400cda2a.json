@@ -1,0 +1,10 @@
+{
+  "id": "T-05a17389-2c72-4d8a-bf2a-49cc400cda2a",
+  "subject": "Create visor/public/subida.js",
+  "description": "New file: ES module exporting initSubida(). Renders doc selector, DEF_MODE radios, button, progress panel, result panel. Loads /api/refs/documents, posts to /api/refs/run, connects SSE to /api/convert/status/:runId. Listens for subida:select CustomEvent to preselect document.",
+  "status": "completed",
+  "activeForm": "Creating subida.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dda3e956ffeSjNThz3ZVreJuU"
+}

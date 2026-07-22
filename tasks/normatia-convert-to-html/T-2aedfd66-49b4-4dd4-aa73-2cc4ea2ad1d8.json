@@ -1,0 +1,10 @@
+{
+  "id": "T-2aedfd66-49b4-4dd4-aa73-2cc4ea2ad1d8",
+  "subject": "F1: Clasificador determinista de headings",
+  "description": "Implementar headings.py con classify_heading() segun la etapa 2 del plan. Reglas de dominio para documentos normativos espanoles: TITULO→h2, CAPITULO→h3, SECCION→h4, SUBSECCION→h5, Articulo→h6, Disposicion→h3, Anexo→h3. Con patrones NOT_HEADING para excluir items de lista. Caso especial: insertar h2 Introduccion si el documento empieza sin heading.",
+  "status": "completed",
+  "activeForm": "Implementing heading classifier",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

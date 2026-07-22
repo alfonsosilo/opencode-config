@@ -1,0 +1,9 @@
+{
+  "id": "T-3a3b471f-efed-46e4-8790-c2e7a7891c3b",
+  "subject": "Batch 2: Fase 2 — Crear scripts/create_article_refs.py",
+  "description": "Script que lee 00-initial.json, extrae bloques, llama a generate_with_fallback() por bloque para obtener referencias, aplica blacklist, y escribe 01-references.json.",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_12ffa17e6ffeDxOIunZup6JMfM"
+}

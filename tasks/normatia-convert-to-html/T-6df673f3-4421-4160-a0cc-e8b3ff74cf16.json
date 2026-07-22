@@ -1,0 +1,9 @@
+{
+  "id": "T-6df673f3-4421-4160-a0cc-e8b3ff74cf16",
+  "subject": "Modify .env.example — add dev/prod Supabase vars",
+  "description": "Append dev and prod Supabase connection variables to existing .env.example",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120a8398affe149bqc1KpEZ6GA"
+}

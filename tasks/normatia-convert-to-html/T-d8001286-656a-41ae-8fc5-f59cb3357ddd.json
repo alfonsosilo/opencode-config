@@ -1,0 +1,10 @@
+{
+  "id": "T-d8001286-656a-41ae-8fc5-f59cb3357ddd",
+  "subject": "Añadir documentos de prod al selector de destino",
+  "description": "Crear GET /api/documents/all (dev+prod), modificar GET /api/documents/:id/index para aceptar source=prod, adaptar frontend ensureIndex y renderDocOptions",
+  "status": "completed",
+  "activeForm": "Adding prod documents to link selector",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_106e0c5e2ffeMjyZTlNecd59dq"
+}

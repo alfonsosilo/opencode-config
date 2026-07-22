@@ -1,0 +1,10 @@
+{
+  "id": "T-94ce8424-4c22-4a09-9253-14ff78489345",
+  "subject": "Create revisor.js (extract from app.js)",
+  "description": "Move all revisor logic from app.js, wrap in export function initRevisor(), remove DOMContentLoaded listener",
+  "status": "completed",
+  "activeForm": "Creating revisor.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de5c0854ffeN3R782wVu2MpJX"
+}

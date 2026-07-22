@@ -1,0 +1,10 @@
+{
+  "id": "T-870aa95f-895b-4e6a-b46b-fe8f3baf8490",
+  "subject": "F9: Integración del pipeline v2",
+  "description": "Crear process_pdf_to_html_mineru_v2() en __init__.py que une F0-F8. Renombrar funcion actual a _legacy. Actualizar mineru_convert.py con flag --pipeline.",
+  "status": "completed",
+  "activeForm": "Integrating pipeline v2",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

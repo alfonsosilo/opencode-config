@@ -1,0 +1,10 @@
+{
+  "id": "T-8e47e9e4-8423-4d41-b008-bd538d29c815",
+  "subject": "F6: Escalado a LLM para bloques ambiguos y tablas",
+  "description": "Crear llm_escalate.py con resolve_ambiguous_block() (JSON schema, contexto minimo) y transcribe_table() (imagen + prompt simplificado). Reutilizar patron de cliente Azure de client.py.",
+  "status": "completed",
+  "activeForm": "Implementing LLM escalation",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0966d3cdbffeN25vmJ2d7v81WS"
+}

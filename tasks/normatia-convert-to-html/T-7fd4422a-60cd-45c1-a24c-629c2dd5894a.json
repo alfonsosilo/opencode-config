@@ -1,0 +1,10 @@
+{
+  "id": "T-7fd4422a-60cd-45c1-a24c-629c2dd5894a",
+  "subject": "Verify all changes (lsp_diagnostics, HTML structure)",
+  "description": "Run lsp_diagnostics on changed files. Verify HTML structure (link tag, empty section). Verify cross-references (event names, IDs, CSS classes).",
+  "status": "completed",
+  "activeForm": "Verifying changes",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0dda3e956ffeSjNThz3ZVreJuU"
+}

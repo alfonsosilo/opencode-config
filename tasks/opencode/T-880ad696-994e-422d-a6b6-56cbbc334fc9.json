@@ -1,0 +1,9 @@
+{
+  "id": "T-880ad696-994e-422d-a6b6-56cbbc334fc9",
+  "subject": "Verify configuration integrity",
+  "description": "Check lsp diagnostics on changed files, validate JSON schema",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0bfa58326ffe0hJ8t2dWsoJplu"
+}

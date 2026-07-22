@@ -1,0 +1,14 @@
+{
+  "id": "T-a6aa6f67-ee40-4629-940d-a709a3608f38",
+  "subject": "Verify: npm install, lint, and manual validation",
+  "description": "Run npm install in visor, verify server starts, check for JS/CSS errors, validate Python scripts work with new args",
+  "status": "completed",
+  "activeForm": "Verifying implementation",
+  "blocks": [],
+  "blockedBy": [
+    "T-1d42a6ab-0bcc-40fd-81b1-3920d800da43",
+    "T-8f13b43f-b2ae-43fb-bc19-6f3efd26ddfc",
+    "T-511e8612-c32c-4a39-a3e4-2bdf04de184b"
+  ],
+  "threadID": "ses_0de52a3e0ffe4fnytVpzbNCu5E"
+}

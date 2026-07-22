@@ -1,0 +1,9 @@
+{
+  "id": "T-6f37c548-9960-4f2d-8897-712782b17300",
+  "subject": "NC.8 — build_document_structure() ensamblaje DocModel",
+  "description": "Implementar build_document_structure() que integra todas las detecciones y produce el DocModel JSON completo. Ordenar bloques por posición, marcar ambigüedades, calcular stats.",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0ba70a060ffef8jYUJLdXNsGKN"
+}

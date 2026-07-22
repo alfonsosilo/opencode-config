@@ -1,0 +1,10 @@
+{
+  "id": "T-f5254309-6226-47ae-a388-c00dcbe9c5b5",
+  "subject": "Fase 2: Reescribir server.js con endpoints Supabase",
+  "description": "Reemplazar data layer fs/JSON por Supabase JS client. 5 endpoints: GET /api/documents, GET /api/documents/:id, GET /api/documents/:id/search, GET /api/search, PUT /api/blocks/:id. Mantener recalcReferences con Cheerio.",
+  "status": "completed",
+  "activeForm": "Rewriting server.js data layer",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_106e0c5e2ffeMjyZTlNecd59dq"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "T-c3c2bee9-605a-4ce4-9e56-0653fced8657",
+  "subject": "Implement config.py",
+  "description": "Create src/pdf_pipeline/config.py with Config dataclass and load_config() using python-dotenv",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b82e6fc4ffewJIjlC3Ez5j1yH"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "T-4039cf50-7874-4da5-8827-0c0a5dd52dfa",
+  "subject": "Update Makefile with A.5/A.7 targets",
+  "description": "Add Makefile targets: sync-prod, reprocess-orphans. Update all-refs. Update .PHONY.",
+  "status": "completed",
+  "activeForm": "Adding sync-prod and reprocess-orphans to Makefile",
+  "blocks": [],
+  "blockedBy": [
+    "T-e15f3bce-69a5-469f-902a-a742e3d3c23f",
+    "T-1a5dd138-b09c-4888-be49-6d0e9326b626"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "T-66d3be8e-6f56-4918-a709-ecb3e5a44162",
+  "subject": "Migrar extract_and_resolve_refs.py al Router",
+  "description": "Reemplazar litellm.completion directo con Gemini por router.completion(model=\"pdf-primary\")",
+  "status": "completed",
+  "activeForm": "Migrando extract_and_resolve_refs.py",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_1106ea7dbffeX4RRcpg2lCBQfw"
+}

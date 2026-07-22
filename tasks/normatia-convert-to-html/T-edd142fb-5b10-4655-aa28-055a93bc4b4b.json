@@ -1,0 +1,9 @@
+{
+  "id": "T-edd142fb-5b10-4655-aa28-055a93bc4b4b",
+  "subject": "Modify pyproject.toml — add psycopg2-binary + supabase deps",
+  "description": "Add psycopg2-binary and supabase dependencies in alphabetical order",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120a8398affe149bqc1KpEZ6GA"
+}

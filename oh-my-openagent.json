@@ -4,62 +4,82 @@
     "sisyphus": {
       "model": "opencode-go/deepseek-v4-pro",
       "textVerbosity": "low",
-      "prompt_append": "RESPONSE MODE: Caveman Lite. Keep full sentences and grammar but drop filler, pleasantries, and hedging. Be professional but tight. Technical substance exact. Code blocks unchanged. Pattern: [thing] [action] [reason]. Stay in this mode every response. User can switch levels with /caveman or say \"stop caveman\" to disable.",
-      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+      "prompt_append": "RESPONSE MODE: Caveman Lite. Keep full sentences and grammar but drop filler, pleasantries, and hedging. Be professional but tight. Technical substance exact. Code blocks unchanged. Pattern: [thing] [action] [reason]. Stay in this mode every response. User can switch levels with /caveman or say \"stop caveman\" to disable.\n\nSDD (SPEC-DRIVEN DEVELOPMENT) WORKFLOW: When the user requests a new feature or non-trivial change that lacks a formal spec, offer to create a spec FIRST before implementing. Use the spec-writer agent to generate it. The standard workflow is: Metis (analyze ambiguity, ask clarifying questions) → spec-writer (generate formal spec in project's specs/ directory) → Momus (review spec for completeness/verifiability) → user approval → implement from spec → Oracle (verify implementation against spec). TRIGGERS for suggesting SDD: 'añadir feature', 'crear nuevo', 'implementar X', 'haz un', 'quiero que', or any non-trivial feature request. EXCEPTIONS: bug fixes, single-line changes, typos, config tweaks — skip SDD, just fix. When user says 'spec', 'SDD', 'especificacion', 'haz una spec', or 'spec-driven' — go directly to spec-writer WITHOUT implementing. The spec template is at .omo/spec-template.md for reference. Specs live in each project repo under specs/ (create dir if needed). NEVER implement a non-trivial feature without offering a spec first.",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
     },
     "oracle": {
-      "model": "opencode-go/deepseek-v4-pro",
+      "model": "opencode-go/qwen3.7-max",
       "textVerbosity": "medium",
       "prompt_append": "Structure your analysis with clear sections. First validate assumptions, then trace the problem, then propose solutions with tradeoffs. Be thorough but precise — every sentence should add value.",
-      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+      "fallback_models": [
+        { "model": "opencode-go/glm-5.1" }
+      ]
     },
     "librarian": {
       "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
       "prompt_append": "Prioritize official documentation and well-maintained libraries. Return actionable findings with source URLs. If something is unclear, say so rather than guessing.",
-      "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
+      "fallback_models": [
+        { "model": "opencode-go/mimo-v2.5" }
+      ]
     },
     "explore": {
       "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
       "prompt_append": "Be thorough — check multiple angles and patterns. Report file paths with context. Distinguish between exact matches and similar patterns. If uncertain, flag it.",
-      "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
+      "fallback_models": [
+        { "model": "opencode-go/mimo-v2.5" }
+      ]
     },
     "multimodal-looker": {
-      "model": "opencode-go/minimax-m3",
+      "model": "opencode-go/deepseek-v4-pro",
       "textVerbosity": "low",
-      "fallback_models": [{ "model": "opencode-go/glm-5.1" }]
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
     },
     "prometheus": {
-      "model": "opencode-go/deepseek-v4-flash",
+      "model": "opencode-go/qwen3.7-max",
       "textVerbosity": "low",
       "prompt_append": "Structure plans as: Context, Objectives, Execution Strategy, Open Questions, and Success Criteria. Identify dependencies and parallelization opportunities. Flag risks early.",
-      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+      "fallback_models": [
+        { "model": "opencode-go/glm-5.1" }
+      ]
     },
     "metis": {
       "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ],
       "textVerbosity": "low"
     },
     "momus": {
-      "model": "opencode-go/glm-5.1",
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ],
       "textVerbosity": "low"
     },
     "atlas": {
       "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
       "prompt_append": "Read the full plan before delegating. Break each task into granular substeps. Delegate to specialists via task() with clear 6-section prompts. Verify each step before proceeding to the next.",
-      "fallback_models": [{ "model": "opencode-go/kimi-k2.6" }]
+      "fallback_models": [
+        { "model": "opencode-go/mimo-v2.5" }
+      ]
     },
     "sisyphus-junior": {
-      "model": "opencode-go/kimi-k2.6",
+      "model": "opencode-go/deepseek-v4-flash",
       "textVerbosity": "low",
       "fallback_models": [
-        {
-          "model": "opencode-go/minimax-m2.7"
-        }
+        { "model": "opencode-go/mimo-v2.5" }
       ]
     },
     "comment_checker": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "textVerbosity": "low",
       "custom_prompt": "Revisa los comentarios de forma breve, solo los críticos. Enfócate en la calidad y claridad del código."
     },
     "security-reviewer": {
@@ -70,6 +90,15 @@
         "bash": "deny"
       },
       "prompt_append": "Eres un revisor de seguridad. Busca: inyecciones, auth bypass, datos sensibles expuestos, dependencias vulnerables. Por cada hallazgo: archivo:línea, severidad, remedio. Si no hay hallazgos, di 'No se encontraron vulnerabilidades'. No informes falsos positivos."
+    },
+    "spec-writer": {
+      "model": "opencode-go/qwen3.7-max",
+      "textVerbosity": "medium",
+      "permission": {
+        "edit": "ask",
+        "bash": "deny"
+      },
+      "prompt_append": "Eres un escritor de especificaciones para Spec-Driven Development. Tu función es convertir peticiones de features en especificaciones formales, detalladas y verificables. La spec es un contrato: define QUÉ (no CÓMO). Usa la plantilla de .omo/spec-template.md. Escribe en el idioma del usuario."
     },
     "test-generator": {
       "model": "opencode-go/deepseek-v4-flash",
@@ -91,17 +120,63 @@
     }
   },
   "categories": {
-    "quick": { "model": "opencode-go/deepseek-v4-flash" },
-    "unspecified-low": { "model": "opencode-go/deepseek-v4-flash" },
-    "unspecified-high": { "model": "opencode-go/deepseek-v4-pro" },
-    "visual-engineering": { "model": "opencode-go/kimi-k2.6" },
-    "ultrabrain": { "model": "opencode-go/deepseek-v4-pro" },
-    "deep": { "model": "opencode-go/deepseek-v4-pro" },
-    "artistry": { "model": "opencode-go/kimi-k2.6" },
-    "writing": { "model": "opencode-go/kimi-k2.6" }
+    "visual-engineering": {
+      "model": "opencode-go/minimax-m3",
+      "fallback_models": [
+        { "model": "opencode-go/deepseek-v4-pro" }
+      ]
+    },
+    "ultrabrain": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
+    },
+    "deep": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
+    },
+    "artistry": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
+    },
+    "quick": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "fallback_models": [
+        { "model": "opencode-go/mimo-v2.5" }
+      ]
+    },
+    "unspecified-low": {
+      "model": "opencode-go/deepseek-v4-flash",
+      "fallback_models": [
+        { "model": "opencode-go/mimo-v2.5" }
+      ]
+    },
+    "unspecified-high": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
+    },
+    "writing": {
+      "model": "opencode-go/deepseek-v4-pro",
+      "fallback_models": [
+        { "model": "opencode-go/qwen3.6-plus" }
+      ]
+    }
   },
   "experimental": {
     "aggressive_truncation": true,
     "task_system": true
+  },
+  "team_mode": {
+    "enabled": true,
+    "max_parallel_members": 4,
+    "max_members": 8,
+    "tmux_visualization": false
   }
 }

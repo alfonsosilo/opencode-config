@@ -1,0 +1,10 @@
+{
+  "id": "T-1d42a6ab-0bcc-40fd-81b1-3920d800da43",
+  "subject": "Backend: Add /api/convert endpoints to server.js + multer",
+  "description": "Install multer, add 4 new endpoints (upload, run, status/SSE, result), child_process.spawn pipeline execution, run buffer with auto-cleanup, all-html auto adds --save-pages",
+  "status": "completed",
+  "activeForm": "Adding conversion API endpoints to server.js",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0de52a3e0ffe4fnytVpzbNCu5E"
+}

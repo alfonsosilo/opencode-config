@@ -1,0 +1,10 @@
+{
+  "id": "T-0948c245-e44a-49c3-ac35-f22921c0cf97",
+  "subject": "B.4 + B.4b + B.4c: Refactor verify.py with text comparison, visual diff, block index",
+  "description": "Add --text-layer mode (pypdf text extraction vs HTML text comparison), add --visual-diff mode (VLM compares PDF page + rendered HTML side-by-side via Playwright), add --block-index mode (verify heading order, slug uniqueness, hierarchical nesting). Add concurrency (ThreadPoolExecutor). Move prompt to converter/prompts.py.",
+  "status": "completed",
+  "activeForm": "Refactoring verify.py for text diff + visual diff + block index",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_111cd3604ffe6hnyXji387d1uO"
+}

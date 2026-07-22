@@ -1,0 +1,15 @@
+{
+  "id": "T-38160fed-a27c-49dd-a0e7-4e62a54b987b",
+  "subject": "Update Makefile with Fase A targets",
+  "description": "Add Makefile targets: html-to-db, extract-refs, review-refs, all-refs pipeline. Update .PHONY.",
+  "status": "completed",
+  "activeForm": "Updating Makefile with new targets",
+  "blocks": [],
+  "blockedBy": [
+    "T-6e56d2ff-3c5d-4e1f-999a-0755c3fc52b4",
+    "T-baf16371-a463-4179-a477-5bbd11ab59a8",
+    "T-bb4f8c22-90c1-42ae-b833-f5b00c6b0762",
+    "T-e4f9f105-5968-48af-a3d1-db4254e649d0"
+  ],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

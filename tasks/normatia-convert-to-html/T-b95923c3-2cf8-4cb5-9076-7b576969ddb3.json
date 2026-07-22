@@ -1,0 +1,10 @@
+{
+  "id": "T-b95923c3-2cf8-4cb5-9076-7b576969ddb3",
+  "subject": "B.1 — Page markers + sliding context",
+  "description": "Modify converter/prompts.py (add PAGINA_X marker requirement, data-* attributes) and converter/engine.py (add sliding context between fragments: last heading, active hierarchy, open list/table).",
+  "status": "in_progress",
+  "activeForm": "Adding page markers and sliding context",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120aaaf13ffeJdk0UpdVpVFSmf"
+}

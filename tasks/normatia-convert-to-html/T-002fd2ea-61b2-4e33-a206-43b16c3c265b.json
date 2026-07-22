@@ -1,0 +1,9 @@
+{
+  "id": "T-002fd2ea-61b2-4e33-a206-43b16c3c265b",
+  "subject": "Create infra/dev_extra_schema.sql — extra DB tables",
+  "description": "Create idempotent SQL schema for block_references, corrections, block_validations, sync_log",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_120a8398affe149bqc1KpEZ6GA"
+}

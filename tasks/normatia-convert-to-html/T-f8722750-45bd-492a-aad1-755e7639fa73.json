@@ -1,0 +1,10 @@
+{
+  "id": "T-f8722750-45bd-492a-aad1-755e7639fa73",
+  "subject": "Improve _TABLE_SYSTEM_PROMPT in llm_escalate.py",
+  "description": "Strengthen the Azure table transcription prompt to be more explicit about detecting header rows, using th for column headers, thead/tbody wrapping, and caption placement",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "parentID": "T-fba98f49-e117-43ac-bf3f-18f3969193c6",
+  "threadID": "ses_07c8f2408ffef4rvxxy2Fx0sHB"
+}

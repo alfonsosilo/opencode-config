@@ -1,0 +1,10 @@
+{
+  "id": "T-24653f2e-a7d8-46bc-b6d9-3282de6138c9",
+  "subject": "Fase 5.5a: Tests de preprocessor, chunker, compact_repr, azure_client",
+  "description": "4 archivos test, mock-based, sin llamadas reales a Azure ni mineru",
+  "status": "completed",
+  "activeForm": "Implementando tests Fase 5",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_0b8499bc3ffeahPLU2SJNXbuOF"
+}
