@@ -1,0 +1,26 @@
+{
+  "_schema": "1.0",
+  "_description": "Cola de features ordenada por prioridad. Define QUE hay que construir y en que orden. El agente lee este archivo al iniciar sesion para saber que feature trabajar.",
+  "_rules": {
+    "wip": "Solo UN feature en estado 'active' a la vez (WIP=1).",
+    "vcr": "Verified Completion Rate = features completados / features activados. Bloquear nuevas activaciones si VCR < 1.0.",
+    "status_flow": "pending → active → completed | pending → blocked → active → completed"
+  },
+  "project": "nombre-del-proyecto",
+  "last_updated": "YYYY-MM-DD",
+  "features": [
+    {
+      "id": "F01",
+      "title": "Ejemplo: Inicializar harness del proyecto",
+      "status": "pending",
+      "priority": 1,
+      "verification": "./init.sh && git log --oneline -1",
+      "dependencies": [],
+      "spec": null,
+      "assigned_session": null,
+      "started_at": null,
+      "completed_at": null,
+      "notes": "Primer feature de cualquier proyecto. Configura entorno, dependencias, y verificacion baseline."
+    }
+  ]
+}
