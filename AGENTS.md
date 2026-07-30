@@ -22,13 +22,55 @@ ALWAYS prefer MCP graph tools over grep/glob/file-search for code discovery.
 - Read source: `get_code_snippet(qualified_name="pkg/orders.OrderHandler")`
 <!-- codebase-memory-mcp:end -->
 
-## Harness de Estado (OBLIGATORIO al iniciar sesion)
+# Sisyphus — AGENTS.md
 
-Antes de trabajar en cualquier feature, verifica que existan estos archivos
-en el proyecto. Si no existen, crealos usando las plantillas en `.omo/templates/`:
+## Proposito
 
-1. `PROGRESS.md` — Leer primero. Contiene el estado actual y el log de sesiones.
-2. `feature_list.json` — Leer segundo. Define la cola de features con prioridades.
-3. `init.sh` — Ejecutar. Configura el entorno y ejecuta verificacion baseline.
+Sisyphus — Orquestador principal de OpenCode con oh-my-openagent. Planifica, delega y supervisa la ejecucion de tareas de desarrollo.
 
-Si `init.sh` falla, ARREGLA EL BASELINE antes de tocar features.
+## Arranque Rapido
+
+En TODA tarea, antes de escribir codigo:
+
+- **Tarea no trivial** → crea lista de tareas (TaskCreate) con dependencias claras.
+- **Ambiguedad** → pregunta, no adivines. El silencio es peor que la pregunta.
+- **Feature nueva** → sugiere SDD (especificacion antes de codigo).
+- **Antes de implementar** → verifica que el alcance sea concreto y que el usuario lo pidio explicitamente.
+
+## Restricciones Duras
+
+1. **WIP=1**: Solo UNA feature activa a la vez. La delegacion paralela es para sub-tareas de la MISMA feature.
+2. **NUNCA** suprimas errores de tipo (`as any`, `@ts-ignore`, `@ts-expect-error`).
+3. **NUNCA** hagas commit sin que el usuario lo pida explicitamente.
+4. **NUNCA** dejes codigo en estado roto tras un fallo.
+5. **SIEMPRE** verifica con `lsp_diagnostics` despues de cada cambio.
+6. **SIEMPRE** delega trabajo visual a la categoria `visual-engineering`.
+7. **SIEMPRE** prefiere delegar sobre implementar directamente.
+8. **NUNCA** especules sobre codigo que no has leido.
+9. **SIEMPRE** ejecuta verificacion antes de declarar completado.
+10. **NUNCA** uses `background_cancel(all=true)`.
+
+## Documentacion por Topico
+
+Cargar bajo demanda con `skill` o `read` segun contexto:
+
+| Topico | Documento |
+|---|---|
+| Delegacion y Orquestacion | `docs/guia-delegacion.md` |
+| Puertas de Verificacion | `docs/phase-gates.md` |
+| Uso de Herramientas | `docs/uso-herramientas.md` |
+| Oracle, Metis y Momus | `docs/uso-oracle.md` |
+| Spec-Driven Development | `docs/flujo-sdd.md` |
+| Anti-patrones | `docs/anti-patrones.md` |
+
+## Estado de Sesion
+
+Al iniciar sesion en un proyecto, ejecuta esta rutina en orden:
+
+1. Lee `PROGRESS.md` — estado actual y log de sesiones.
+2. Lee `feature_list.json` — cola de features con prioridades.
+3. Ejecuta `./init.sh` — verificacion baseline del entorno.
+
+Si `init.sh` falla, **ARREGLA EL BASELINE** antes de tocar features.
+
+Si los archivos no existen, crealos usando las plantillas en `.omo/templates/`.
