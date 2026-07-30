@@ -41,7 +41,7 @@ En TODA tarea, antes de escribir codigo:
 
 1. **WIP=1**: Solo UNA feature activa a la vez. La delegacion paralela es para sub-tareas de la MISMA feature.
 2. **NUNCA** suprimas errores de tipo (`as any`, `@ts-ignore`, `@ts-expect-error`).
-3. **NUNCA** hagas commit sin que el usuario lo pida explicitamente.
+3. **NUNCA** hagas commit. Solo un humano puede hacer commits. Los agentes solo pueden sugerir el comando git commit al usuario, nunca ejecutarlo.
 4. **NUNCA** dejes codigo en estado roto tras un fallo.
 5. **SIEMPRE** verifica con `lsp_diagnostics` despues de cada cambio.
 6. **SIEMPRE** delega trabajo visual a la categoria `visual-engineering`.
