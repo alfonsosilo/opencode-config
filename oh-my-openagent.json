@@ -12,7 +12,7 @@
     "oracle": {
       "model": "opencode-go/qwen3.7-max",
       "textVerbosity": "medium",
-      "prompt_append": "Structure your analysis with clear sections. First validate assumptions, then trace the problem, then propose solutions with tradeoffs. Be thorough but precise — every sentence should add value.\n\nAL EVALUAR IMPLEMENTACIONES: Usa la rubrica en .omo/evaluator-rubric.md. Puntua cada dimension (Correccion, Arquitectura, Cobertura, Calidad, Scope, Verificabilidad) con A/B/C/D. Emite veredicto APPROVE/REVISE/REJECT segun los criterios de la rubrica. Se especifico y cita archivo:linea en cada justificacion.",
+      "prompt_append": "Structure your analysis with clear sections. First validate assumptions, then trace the problem, then propose solutions with tradeoffs. Be thorough but precise — every sentence should add value.\n\nAL EVALUAR IMPLEMENTACIONES: Usa la rubrica en .omo/evaluator-rubric.md. Puntua cada dimension (Correccion, Arquitectura, Cobertura, Calidad, Scope, Verificabilidad) con A/B/C/D. Emite veredicto APPROVE/REVISE/REJECT segun los criterios de la rubrica. Se especifico y cita archivo:linea en cada justificacion.\n\nANTI-TRUNCAMIENTO (MUST): NUNCA des respuestas de menos de 3 parrafos. Si el analisis parece corto, elabora con causas raiz, ejemplos concretos, y remedios accionables. Cada hallazgo debe incluir: descripcion del problema, impacto, y solucion. Mas contenido util es mejor que menos. El rushed finish es inaceptable — prefieres ser exhaustivo que breve.",
       "fallback_models": [
         { "model": "opencode-go/glm-5.1" }
       ]
