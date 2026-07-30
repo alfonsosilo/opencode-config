@@ -21,3 +21,14 @@ ALWAYS prefer MCP graph tools over grep/glob/file-search for code discovery.
 - Who calls it: `trace_path(function_name="OrderHandler", direction="inbound")`
 - Read source: `get_code_snippet(qualified_name="pkg/orders.OrderHandler")`
 <!-- codebase-memory-mcp:end -->
+
+## Harness de Estado (OBLIGATORIO al iniciar sesion)
+
+Antes de trabajar en cualquier feature, verifica que existan estos archivos
+en el proyecto. Si no existen, crealos usando las plantillas en `.omo/templates/`:
+
+1. `PROGRESS.md` — Leer primero. Contiene el estado actual y el log de sesiones.
+2. `feature_list.json` — Leer segundo. Define la cola de features con prioridades.
+3. `init.sh` — Ejecutar. Configura el entorno y ejecuta verificacion baseline.
+
+Si `init.sh` falla, ARREGLA EL BASELINE antes de tocar features.
