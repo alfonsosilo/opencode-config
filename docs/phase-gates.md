@@ -89,6 +89,17 @@ Cuando arreglas un bug:
 - **NO refactorices** mientras arreglas. Fix primero, refactor despues (en commit separado).
 - **NO "aproveches"** para limpiar codigo cercano. Un cambio = un proposito.
 
+## Verificacion Multicapa (E2E)
+
+La verificacion no es binaria (pasa/no pasa). Usa 3 capas en orden estricto:
+
+1. **Sintaxis/Estatica**: LSP diagnostics, typecheck, lint. No pasar a capa 2 si hay errores.
+2. **Runtime/Unit**: Tests unitarios y de integracion. No pasar a capa 3 si fallan.
+3. **Sistema/E2E**: Smoke tests end-to-end, verificacion Oracle contra spec.
+
+Los tests unitarios son ciegos a defectos en fronteras de componentes.
+Incluye al menos UN smoke test E2E por feature. Ver `.omo/e2e-testing-guide.md` para detalles.
+
 ## Puertas de seguridad
 
 ### Operaciones destructivas
