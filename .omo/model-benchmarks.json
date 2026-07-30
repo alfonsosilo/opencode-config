@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-30",
+  "methodology": "Standardized tasks per model capability. Each model tested on its optimized domain. Tests run via opencode run --model <model> --pure --auto with identical prompts where comparable. Parallel execution. Evaluated using .omo/evaluator-rubric.md dimensions (Correccion, Calidad) plus rushed-finish detection.",
+  "results": [
+    {
+      "model": "deepseek-v4-pro",
+      "provider": "opencode-go",
+      "tested_via": "agent=build (default agent for CLI run)",
+      "configured_as": "deep/ultrabrain/unspecified-high/artistry/writing (categories); sisyphus/metis/momus/security-reviewer (agents)",
+      "task": "coding",
+      "prompt": "Write a Python function fibonacci(n) that returns the nth Fibonacci number. Include input validation (n must be a positive integer) and a docstring.",
+      "response_length_chars": 500,
+      "correccion": "A",
+      "calidad": "A",
+      "overall_quality": "A",
+      "rushed_finish": false,
+      "duration_estimate_seconds": 60,
+      "notes": "Excelente. Incluye chequeo explicito de bool en isinstance (edge case sutil). Docstring completo con Args/Returns/Raises. Solucion iterativa eficiente con tuple unpacking. Codigo idiomatico y limpio."
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "provider": "opencode-go",
+      "tested_via": "agent=build (default agent for CLI run)",
+      "configured_as": "quick/unspecified-low (categories); sisyphus-junior/explore/librarian/atlas/comment_checker/test-generator (agents)",
+      "task": "coding",
+      "prompt": "Write a Python function fibonacci(n) that returns the nth Fibonacci number. Include input validation (n must be a positive integer) and a docstring.",
+      "response_length_chars": 550,
+      "correccion": "A",
+      "calidad": "B",
+      "overall_quality": "B",
+      "rushed_finish": true,
+      "duration_estimate_seconds": 60,
+      "notes": "Codigo correcto pero menos pulido que deepseek-v4-pro. Efecto secundario: escribio fibonacci.py en disco a pesar de que el prompt pedia 'return only the function code'. Falta chequeo de bool en isinstance. Docstring incluye nota sobre F(1)=1, F(2)=1 que es buen detalle."
+    },
+    {
+      "model": "minimax-m3",
+      "provider": "opencode-go",
+      "tested_via": "agent=build (default agent for CLI run)",
+      "configured_as": "visual-engineering (category)",
+      "task": "UI",
+      "prompt": "Create a simple HTML button component with CSS. Hover and active states, centered on page, blue color scheme.",
+      "response_length_chars": 950,
+      "correccion": "A",
+      "calidad": "A",
+      "overall_quality": "A",
+      "rushed_finish": false,
+      "duration_estimate_seconds": 60,
+      "notes": "Sobresaliente en su dominio (visual-engineering). HTML+CSS completo con hover/active/focus-visible. Paleta azul profesional (#2563eb → #1d4ed8 → #1e40af). Transiciones suaves, box-shadows progresivos. Agrego accesibilidad (focus-visible) no solicitada. Componente listo para usar."
+    },
+    {
+      "model": "qwen3.7-max",
+      "provider": "opencode-go",
+      "tested_via": "agent=build (default agent for CLI run)",
+      "configured_as": "oracle/prometheus/spec-writer (agents)",
+      "task": "analysis",
+      "prompt": "Analiza el siguiente codigo y encuentra posibles bugs: function sum(arr) { let total = 0; for (let i = 0; i <= arr.length; i++) { total += arr[i]; } return total; }",
+      "response_length_chars": 150,
+      "correccion": "A",
+      "calidad": "C",
+      "overall_quality": "B",
+      "rushed_finish": true,
+      "duration_estimate_seconds": 60,
+      "notes": "Identifico correctamente el bug off-by-one (i <= arr.length) y explico que total + undefined = NaN. PERO: respuesta extremadamente breve (2 oraciones). No sugirio fix, no menciono otros posibles bugs (tipo de arr, strings, vacio). Comportamiento de 'rushed finish' evidente — quizas por configuracion de verbosity medium en entorno de agente build que no es su agente configurado (oracle)."
+    },
+    {
+      "model": "kimi-k2.6",
+      "provider": "opencode-go",
+      "tested_via": "agent=build (default agent for CLI run)",
+      "configured_as": "docs-writer (agent)",
+      "task": "documentation",
+      "prompt": "Documenta esta funcion en formato JSDoc: function getUserById(id: number, includeDeleted: boolean = false): Promise<User | null>",
+      "response_length_chars": 1450,
+      "correccion": "A",
+      "calidad": "A",
+      "overall_quality": "A",
+      "rushed_finish": false,
+      "duration_estimate_seconds": 60,
+      "notes": "Excelente en su dominio (docs-writer). JSDoc completo con @param, @returns, @example. Documenta parametro opcional con valor default. Incluye ejemplos de uso (con y sin includeDeleted). Agrego notas explicativas post-JSDoc. La respuesta mas extensa de todas las pruebas. Profesional y detallada."
+    }
+  ]
+}
