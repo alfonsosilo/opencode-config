@@ -167,7 +167,7 @@ Durante la implementacion:
 
 - **WIP=1**: solo este feature. No abrir otros frentes.
 - **Verificar incrementalmente**: no esperar al final. Despues de cada cambio significativo, ejecutar `lsp_diagnostics` en los archivos modificados.
-- **Commit atomico**: cada cambio logico en su propio commit con conventional commits.
+- **Commits**: Solo un humano puede hacer commits. El agente sugiere comandos git commit al usuario, nunca los ejecuta.
 - **NO suprimir errores de tipo**: nada de `as any`, `@ts-ignore`, `@ts-expect-error`.
 - **NO dejar codigo roto**: si algo falla, arreglarlo antes de continuar.
 
@@ -245,7 +245,7 @@ Ejecutar la rutina de clock-out completa:
 1. **Actualizar PROGRESS.md**: anadir entrada al Log de Sesiones con fecha, feature trabajado, resumen, estado de build y tests.
 2. **Verificacion final**: `lsp_diagnostics` en todo el proyecto + tests completos.
 3. **Gestion de contexto**: si la sesion fue larga, crear `session-handoff.md`.
-4. **Commit de trabajo**: `git add -A` (con exclusiones de seguridad), commit con conventional commits. **NUNCA push.**
+4. **Sugerir commit al usuario**: `git status --short` para mostrar cambios. Sugerir mensaje de commit con conventional commits. Mostrar comando exacto. **NUNCA ejecutar git commit — solo un humano puede.**
 5. **Chequeo de estado limpio**: buscar archivos temporales, codigo de debug, codigo comentado.
 6. **Actualizar feature_list.json**: confirmar que el feature este en `"completed"`.
 
@@ -291,7 +291,7 @@ Tiempo total: X minutos
 - **NO** marcar un feature como `"completed"` sin que la verificacion pase.
 - **NO** saltar la evaluacion Oracle para features con spec.
 - **NO** hacer push al remoto bajo ninguna circunstancia.
-- **NO** commitear secretos, archivos `.env`, o configuracion personal.
+- **NUNCA** ejecutar git add o git commit. Solo un humano puede hacer commits.
 - **NO** suprimir errores de tipo (`as any`, `@ts-ignore`, `@ts-expect-error`).
 - **NO** dejar codigo en estado roto tras un fallo.
 - **NO** continuar si el baseline esta roto (`init.sh` falla).
@@ -300,7 +300,7 @@ Tiempo total: X minutos
 
 - **TODO** el contenido de salida debe estar en **espanol**.
 - Nombres tecnicos (nombres de archivo, comandos, codigos de error) se mantienen en su idioma original.
-- Conventional commits pueden usar prefijos en ingles (`feat:`, `fix:`, etc.) segun el estandar del proyecto.
+- Conventional commits pueden usar prefijos en ingles (`feat:`, `fix:`, etc.) segun el estandar del proyecto. El agente sugiere el mensaje; el humano ejecuta el commit.
 
 ### Prioridades de delegacion
 

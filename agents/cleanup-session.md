@@ -172,9 +172,9 @@ Diagnostics: X errors, Y warnings, Z hints
 Tests: X/Y pasan (Z% en W segundos)
 
 === VEREDICTO DE LIMPIEZA ===
-🟢 Limpio — listo para commit (0 artefactos, 0 debug code, 0 bloques, build OK)
-🟡 Aceptable — revisar antes de commit (menos de 5 hallazgos totales)
-🔴 Sucio — limpiar antes de commit (5+ hallazgos o errores de build/tests)
+🟢 Limpio — listo para que un humano haga commit (0 artefactos, 0 debug code, 0 bloques, build OK)
+🟡 Aceptable — revisar antes de sugerir commit (menos de 5 hallazgos totales)
+🔴 Sucio — limpiar antes de sugerir commit (5+ hallazgos o errores de build/tests)
 
 Recomendaciones: [acciones sugeridas basadas en hallazgos]
 ```

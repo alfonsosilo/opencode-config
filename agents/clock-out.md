@@ -1,5 +1,5 @@
 ---
-description: "Rutina de cierre de sesion. Actualiza el estado del proyecto, ejecuta verificacion completa, hace commit del trabajo, y verifica estado limpio."
+description: "Rutina de cierre de sesion. Actualiza el estado del proyecto, ejecuta verificacion completa, sugiere commits al usuario, y verifica estado limpio."
 mode: subagent
 model: opencode-go/deepseek-v4-flash
 temperature: 0.1
@@ -67,23 +67,26 @@ Si la sesion NO fue larga, saltar este paso con el mensaje: "Sesion corta — no
 
 ---
 
-## Paso 4: Commit de trabajo
+## Paso 4: Sugerir commit al usuario
 
 Ejecutar `git status --short`. Si hay cambios no commiteados:
 
-1. **NO incluir** en el commit: archivos `.env`, `.env.local`, `.env.*`, configuracion personal, secretos, tokens, claves API.
-2. Hacer `git add -A` (con exclusiones segun el punto anterior).
-3. Hacer commit con mensaje descriptivo siguiendo **conventional commits**:
+1. Listar los archivos modificados agrupados por tipo (nuevos, modificados, eliminados).
+2. Sugerir un mensaje de commit siguiendo conventional commits:
    - `feat: ...` para features nuevos
    - `fix: ...` para arreglos
    - `chore: ...` para tareas de mantenimiento
    - `docs: ...` para documentacion
    - `test: ...` para tests
    - `refactor: ...` para refactorizacion
+3. Mostrar el comando EXACTO al usuario para que lo ejecute manualmente:
+   ```
+   Comando sugerido:
+     git add -A
+     git commit -m "feat(F03): implementar autenticacion JWT con refresh tokens"
+   ```
 
-Ejemplo: `feat(F03): implementar autenticacion JWT con refresh tokens`
-
-**NUNCA hacer push.** El commit es local unicamente.
+**NUNCA ejecutar git commit ni git add.** Solo un humano puede hacer commits. El agente solo sugiere.
 
 Si no hay cambios, reportar: "Sin cambios para commitear."
 
@@ -147,7 +150,7 @@ Handoff: [si/no — archivo creado]
 ## Reglas adicionales
 
 - **NO** hacer push al remoto bajo ninguna circunstancia.
-- **NO** commitear secretos, archivos `.env`, o configuracion personal.
+- **NUNCA** ejecutar git add o git commit. Solo un humano puede hacer commits.
 - **NO** eliminar comentarios TODO que sean documentacion legitima.
 - **NO** eliminar archivos temporales — solo reportarlos.
 - **NO** saltar la verificacion aunque "todo parezca estar bien".

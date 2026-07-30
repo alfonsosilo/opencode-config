@@ -164,8 +164,13 @@ git status >/dev/null 2>&1 && echo "GIT_EXISTS" || echo "NO_GIT"
   ```
   Por defecto asumir **N**. Si el usuario dice `s`, ejecutar:
   ```bash
-  git init && git add -A && git commit -m "initial commit with harness"
+  git init && git add -A
   ```
+  Luego sugerir al usuario que haga el commit manualmente:
+  ```
+  git commit -m "initial commit with harness"
+  ```
+  **NUNCA ejecutar git commit.** Solo un humano puede hacer commits.
 
 - Si **ya tiene git:** Reportar `Git: ya existia`.
 
@@ -206,7 +211,7 @@ Sugerencias de proximo paso segun contexto:
 ## Reglas adicionales (MUST NOT DO)
 
 - **NO** sobrescribir archivos de harness existentes sin preguntar.
-- **NO** hacer commit a git sin preguntar.
+- **NUNCA** ejecutar git commit. Solo un humano puede hacer commits. Solo sugerir el comando al usuario.
 - **NO** ejecutar /init-deep sin preguntar.
 - **NO** modificar el codigo fuente del proyecto.
 - **NO** continuar si init.sh falla — arreglar el baseline primero.
