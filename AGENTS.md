@@ -1,3 +1,32 @@
+# OpenCode Config — alfonsosilo/opencode-config
+
+Repositorio de configuracion personal de OpenCode con plugin oh-my-openagent.
+Define agentes, categorias, skills, reglas de orquestacion y templates para proyectos.
+
+## Setup en maquina nueva
+
+```bash
+git clone git@github.com:alfonsosilo/opencode-config.git ~/.config/opencode
+cd ~/.config/opencode
+bash setup.sh
+```
+
+`setup.sh` instala dependencias npm, `codebase-memory-mcp`, y verifica skills.
+Ademas, sincroniza `~/.agents/skills/` (skills custom como `agent-browser`) aparte.
+
+## Configuracion
+
+| Archivo | Que define |
+|---|---|
+| `opencode.json` | Plugins, MCP servers, flags experimentales |
+| `oh-my-openagent.json` | Agentes, categorias, modelos, team mode |
+| `AGENTS.md` | Prompt del orquestador Sisyphus (este archivo) |
+| `agents/*.md` | Definiciones de agentes custom |
+| `.omo/` | Plantillas, rubricas, benchmarks |
+| `tui.json` | Configuracion del TUI |
+
+---
+
 <!-- codebase-memory-mcp:start -->
 # Codebase Knowledge Graph (codebase-memory-mcp)
 
