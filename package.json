@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@al-bashkir/opencode-caveman": "^0.1.0",
+    "@opencode-ai/plugin": "1.4.6"
+  }
+}
