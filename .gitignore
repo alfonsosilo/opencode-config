@@ -1,5 +1,14 @@
 node_modules
 bun.lock
+.DS_Store
 
 tasks
 .omo/run-continuation
+.omo/runtime
+.omo/teams
+.omo/worktrees
+.omo/lsp-daemon
+.omo/codegraph
+.omo/*.bak.*
+.omo/.migration*
+lsp-install-decisions.json

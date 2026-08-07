@@ -11,15 +11,35 @@ cd ~/.config/opencode
 bash setup.sh
 ```
 
-`setup.sh` instala dependencias npm, `codebase-memory-mcp`, y verifica skills.
-Ademas, sincroniza `~/.agents/skills/` (skills custom como `agent-browser`) aparte.
+`setup.sh` instala dependencias npm, enlaza `.omo/omo.jsonc` en `~/.omo/omo.jsonc`,
+instala `codebase-memory-mcp`, y verifica skills. Ademas, sincroniza
+`~/.agents/skills/` (skills custom como `agent-browser`) aparte.
+
+## Portabilidad
+
+La configuracion canonica de OMO vive en `.omo/omo.jsonc` dentro de este repo.
+Durante el setup, `setup.sh` crea `~/.omo/omo.jsonc` como enlace simbolico a ese
+archivo. Si ya existe una configuracion local, la conserva con el sufijo
+`.pre-portable-<timestamp>` antes de crear el enlace.
+
+El repositorio contiene configuracion portable, prompts y reglas. El estado de
+runtime de OMO (`runtime`, `teams`, `worktrees`, `lsp-daemon` y backups) queda
+fuera del control de versiones.
+
+Para verificar la sincronizacion:
+
+```bash
+test -L ~/.omo/omo.jsonc
+readlink ~/.omo/omo.jsonc
+bunx oh-my-openagent@latest doctor --verbose
+```
 
 ## Configuracion
 
 | Archivo | Que define |
 |---|---|
 | `opencode.json` | Plugins, MCP servers, flags experimentales |
-| `oh-my-openagent.json` | Agentes, categorias, modelos, team mode |
+| `.omo/omo.jsonc` | Agentes, categorias, modelos, reasoning y team mode |
 | `AGENTS.md` | Prompt del orquestador Sisyphus (este archivo) |
 | `agents/*.md` | Definiciones de agentes custom |
 | `.omo/` | Plantillas, rubricas, benchmarks |

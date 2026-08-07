@@ -31,7 +31,43 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# 2. Install codebase-memory-mcp (global)
+# 2. Link the portable OMO configuration
+# ---------------------------------------------------------------------------
+echo ""
+echo "=== Linking OMO configuration ==="
+OMO_DIR="$HOME/.omo"
+OMO_CONFIG="$OMO_DIR/omo.jsonc"
+REPO_OMO_CONFIG="$CONFIG_DIR/.omo/omo.jsonc"
+
+if [ ! -f "$REPO_OMO_CONFIG" ]; then
+    err "OMO config not found at $REPO_OMO_CONFIG"
+    exit 1
+fi
+
+mkdir -p "$OMO_DIR"
+
+if [ -L "$OMO_CONFIG" ]; then
+    CURRENT_TARGET="$(readlink "$OMO_CONFIG")"
+    if [ "$CURRENT_TARGET" = "$REPO_OMO_CONFIG" ]; then
+        log "OMO config link already correct"
+    else
+        rm "$OMO_CONFIG"
+        ln -s "$REPO_OMO_CONFIG" "$OMO_CONFIG"
+        log "Updated OMO config link: $OMO_CONFIG -> $REPO_OMO_CONFIG"
+    fi
+elif [ -e "$OMO_CONFIG" ]; then
+    BACKUP="${OMO_CONFIG}.pre-portable-$(date +%Y%m%dT%H%M%S)"
+    mv "$OMO_CONFIG" "$BACKUP"
+    warn "Backed up existing OMO config to $BACKUP"
+    ln -s "$REPO_OMO_CONFIG" "$OMO_CONFIG"
+    log "Created OMO config link: $OMO_CONFIG -> $REPO_OMO_CONFIG"
+else
+    ln -s "$REPO_OMO_CONFIG" "$OMO_CONFIG"
+    log "Created OMO config link: $OMO_CONFIG -> $REPO_OMO_CONFIG"
+fi
+
+# ---------------------------------------------------------------------------
+# 3. Install codebase-memory-mcp (global)
 #    https://github.com/DeusData/codebase-memory-mcp
 # ---------------------------------------------------------------------------
 echo ""
@@ -45,7 +81,7 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# 3. Custom skills reminder
+# 4. Custom skills reminder
 # ---------------------------------------------------------------------------
 echo ""
 echo "=== Custom skills ==="
